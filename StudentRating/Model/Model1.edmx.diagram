@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="bbd571fb639c4fc7a46628a36a0714c5" Name="Diagram1">
+        <EntityTypeShape EntityType="NormModel.CuratorOrTeacher" Width="1.5" PointX="0.75" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="NormModel.Group" Width="1.5" PointX="3" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="NormModel.Lesson" Width="1.5" PointX="5.25" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="NormModel.LessonStudent" Width="1.5" PointX="7.5" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="NormModel.Login" Width="1.5" PointX="3" PointY="6.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="NormModel.Student" Width="1.5" PointX="5.25" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="NormModel.Subject" Width="1.5" PointX="3" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="NormModel.sysdiagram" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="NormModel.FK_Groups_CuratorOrTeacher" ManuallyRouted="false" />
+        <AssociationConnector Association="NormModel.FK_Lesson_CuratorOrTeacher" ManuallyRouted="false" />
+        <AssociationConnector Association="NormModel.FK_Logins_CuratorOrTeacher" ManuallyRouted="false" />
+        <AssociationConnector Association="NormModel.FK_Lessons_Groups" ManuallyRouted="false" />
+        <AssociationConnector Association="NormModel.FK_Students_Groups" ManuallyRouted="false" />
+        <AssociationConnector Association="NormModel.FK_Lesson_Subjects" ManuallyRouted="false" />
+        <AssociationConnector Association="NormModel.FK_LessonsStudents_Lessons" ManuallyRouted="false" />
+        <AssociationConnector Association="NormModel.FK_LessonsStudents_Students" ManuallyRouted="false" />
+        <AssociationConnector Association="NormModel.CurratorsAndSubject" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

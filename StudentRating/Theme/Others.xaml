@@ -1,0 +1,13 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+
+    <BitmapImage x:Key="DefaultImage" UriSource="Images\off.png"/>
+
+    <FontFamily x:Key="newFont">Mangal</FontFamily>
+
+    <FontFamily x:Key="Custom">/WpfApp1;component/#password</FontFamily>
+
+
+
+</ResourceDictionary>

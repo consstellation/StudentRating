@@ -1,0 +1,4 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:classes="clr-namespace:WpfApp1.Classes">
+    <classes:ConvertPoint x:Key="asd"/>
+</ResourceDictionary>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="80da86abc03c4c5fa30bc65716c9065b" Name="Diagram1">
+        <EntityTypeShape EntityType="LegramModel.EmployeeAccessMode" Width="1.5" PointX="5.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LegramModel.EmployeeAccount" Width="1.5" PointX="8" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LegramModel.Group" Width="1.5" PointX="0.75" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LegramModel.JoinG" Width="1.5" PointX="3" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LegramModel.JoinL" Width="1.5" PointX="8.25" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LegramModel.JoinSG" Width="1.5" PointX="3" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LegramModel.Lesson" Width="1.5" PointX="6" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LegramModel.Student" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LegramModel.Subject" Width="1.5" PointX="0.75" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="LegramModel.sysdiagram" Width="1.5" PointX="2.75" PointY="8.25" IsExpanded="true" />
+        <AssociationConnector Association="LegramModel.FK__JournalGS__group__2A164134" ManuallyRouted="false" />
+        <AssociationConnector Association="LegramModel.FK__JournalSG__group__6383C8BA" ManuallyRouted="false" />
+        <AssociationConnector Association="LegramModel.FK__Lesson__groupId__74AE54BC" ManuallyRouted="false" />
+        <AssociationConnector Association="LegramModel.FK__JournalGS__subje__2B0A656D" ManuallyRouted="false" />
+        <AssociationConnector Association="LegramModel.FK__JournalLS__lesso__0C85DE4D" ManuallyRouted="false" />
+        <AssociationConnector Association="LegramModel.FK__JournalLS__stude__0D7A0286" ManuallyRouted="false" />
+        <AssociationConnector Association="LegramModel.FK__JournalSG__stude__628FA481" ManuallyRouted="false" />
+        <AssociationConnector Association="LegramModel.FK__Lesson__subjectI__73BA3083" ManuallyRouted="false" />
+        <AssociationConnector Association="LegramModel.Employee" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

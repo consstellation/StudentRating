@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="NormModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="CuratorOrTeacher">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FirstName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="LastName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="MiddleName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Groups" Relationship="Self.FK_Groups_CuratorOrTeacher" FromRole="CuratorOrTeacher" ToRole="Group" />
+    <NavigationProperty Name="Lessons" Relationship="Self.FK_Lesson_CuratorOrTeacher" FromRole="CuratorOrTeacher" ToRole="Lesson" />
+    <NavigationProperty Name="Logins" Relationship="Self.FK_Logins_CuratorOrTeacher" FromRole="CuratorOrTeacher" ToRole="Login" />
+    <NavigationProperty Name="Subjects" Relationship="Self.CurratorsAndSubject" FromRole="CuratorOrTeacher" ToRole="Subject" />
+  </EntityType>
+  <EntityType Name="Group">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ID_СuratorTeacher" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="CuratorOrTeacher" Relationship="Self.FK_Groups_CuratorOrTeacher" FromRole="Group" ToRole="CuratorOrTeacher" />
+    <NavigationProperty Name="Lessons" Relationship="Self.FK_Lessons_Groups" FromRole="Group" ToRole="Lesson" />
+    <NavigationProperty Name="Students" Relationship="Self.FK_Students_Groups" FromRole="Group" ToRole="Student" />
+  </EntityType>
+  <EntityType Name="Lesson">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ID_Subject" Type="Int32" Nullable="false" />
+    <Property Name="DataLesson" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="ID_Teacher" Type="Int32" Nullable="false" />
+    <Property Name="ID_Group" Type="Int32" Nullable="false" />
+    <Property Name="NumberOfHours" Type="Int32" Nullable="false" />
+    <Property Name="TypeLesson" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Semester" Type="Int32" />
+    <Property Name="MaxPoint" Type="Int32" />
+    <NavigationProperty Name="CuratorOrTeacher" Relationship="Self.FK_Lesson_CuratorOrTeacher" FromRole="Lesson" ToRole="CuratorOrTeacher" />
+    <NavigationProperty Name="Group" Relationship="Self.FK_Lessons_Groups" FromRole="Lesson" ToRole="Group" />
+    <NavigationProperty Name="Subject" Relationship="Self.FK_Lesson_Subjects" FromRole="Lesson" ToRole="Subject" />
+    <NavigationProperty Name="LessonStudents" Relationship="Self.FK_LessonsStudents_Lessons" FromRole="Lesson" ToRole="LessonStudent" />
+  </EntityType>
+  <EntityType Name="LessonStudent">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ID_Lesson" Type="Int32" Nullable="false" />
+    <Property Name="ID_Student" Type="Int32" Nullable="false" />
+    <Property Name="Comment" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Exist" Type="Boolean" Nullable="false" />
+    <Property Name="Point" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Lesson" Relationship="Self.FK_LessonsStudents_Lessons" FromRole="LessonStudent" ToRole="Lesson" />
+    <NavigationProperty Name="Student" Relationship="Self.FK_LessonsStudents_Students" FromRole="LessonStudent" ToRole="Student" />
+  </EntityType>
+  <EntityType Name="Login">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ID_curator" Type="Int32" Nullable="false" />
+    <Property Name="Login1" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="CuratorOrTeacher" Relationship="Self.FK_Logins_CuratorOrTeacher" FromRole="Login" ToRole="CuratorOrTeacher" />
+  </EntityType>
+  <EntityType Name="Student">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FirstName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="LastName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="MiddleName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ID_group" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Group" Relationship="Self.FK_Students_Groups" FromRole="Student" ToRole="Group" />
+    <NavigationProperty Name="LessonStudents" Relationship="Self.FK_LessonsStudents_Students" FromRole="Student" ToRole="LessonStudent" />
+  </EntityType>
+  <EntityType Name="Subject">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Lessons" Relationship="Self.FK_Lesson_Subjects" FromRole="Subject" ToRole="Lesson" />
+    <NavigationProperty Name="CuratorOrTeachers" Relationship="Self.CurratorsAndSubject" FromRole="Subject" ToRole="CuratorOrTeacher" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <Association Name="FK_Groups_CuratorOrTeacher">
+    <End Role="CuratorOrTeacher" Type="Self.CuratorOrTeacher" Multiplicity="1" />
+    <End Role="Group" Type="Self.Group" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CuratorOrTeacher">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Group">
+        <PropertyRef Name="ID_СuratorTeacher" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Lesson_CuratorOrTeacher">
+    <End Role="CuratorOrTeacher" Type="Self.CuratorOrTeacher" Multiplicity="1" />
+    <End Role="Lesson" Type="Self.Lesson" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CuratorOrTeacher">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Lesson">
+        <PropertyRef Name="ID_Teacher" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Logins_CuratorOrTeacher">
+    <End Role="CuratorOrTeacher" Type="Self.CuratorOrTeacher" Multiplicity="1" />
+    <End Role="Login" Type="Self.Login" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CuratorOrTeacher">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Login">
+        <PropertyRef Name="ID_curator" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Lessons_Groups">
+    <End Role="Group" Type="Self.Group" Multiplicity="1" />
+    <End Role="Lesson" Type="Self.Lesson" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Group">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Lesson">
+        <PropertyRef Name="ID_Group" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Students_Groups">
+    <End Role="Group" Type="Self.Group" Multiplicity="1" />
+    <End Role="Student" Type="Self.Student" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Group">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Student">
+        <PropertyRef Name="ID_group" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Lesson_Subjects">
+    <End Role="Subject" Type="Self.Subject" Multiplicity="1" />
+    <End Role="Lesson" Type="Self.Lesson" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Subject">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Lesson">
+        <PropertyRef Name="ID_Subject" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_LessonsStudents_Lessons">
+    <End Role="Lesson" Type="Self.Lesson" Multiplicity="1" />
+    <End Role="LessonStudent" Type="Self.LessonStudent" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Lesson">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="LessonStudent">
+        <PropertyRef Name="ID_Lesson" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_LessonsStudents_Students">
+    <End Role="Student" Type="Self.Student" Multiplicity="1" />
+    <End Role="LessonStudent" Type="Self.LessonStudent" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Student">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="LessonStudent">
+        <PropertyRef Name="ID_Student" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="CurratorsAndSubject">
+    <End Role="CuratorOrTeacher" Type="Self.CuratorOrTeacher" Multiplicity="*" />
+    <End Role="Subject" Type="Self.Subject" Multiplicity="*" />
+  </Association>
+  <EntityContainer Name="NormEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="CuratorOrTeachers" EntityType="Self.CuratorOrTeacher" />
+    <EntitySet Name="Groups" EntityType="Self.Group" />
+    <EntitySet Name="Lessons" EntityType="Self.Lesson" />
+    <EntitySet Name="LessonStudents" EntityType="Self.LessonStudent" />
+    <EntitySet Name="Logins" EntityType="Self.Login" />
+    <EntitySet Name="Students" EntityType="Self.Student" />
+    <EntitySet Name="Subjects" EntityType="Self.Subject" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
+    <AssociationSet Name="FK_Groups_CuratorOrTeacher" Association="Self.FK_Groups_CuratorOrTeacher">
+      <End Role="CuratorOrTeacher" EntitySet="CuratorOrTeachers" />
+      <End Role="Group" EntitySet="Groups" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Lesson_CuratorOrTeacher" Association="Self.FK_Lesson_CuratorOrTeacher">
+      <End Role="CuratorOrTeacher" EntitySet="CuratorOrTeachers" />
+      <End Role="Lesson" EntitySet="Lessons" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Logins_CuratorOrTeacher" Association="Self.FK_Logins_CuratorOrTeacher">
+      <End Role="CuratorOrTeacher" EntitySet="CuratorOrTeachers" />
+      <End Role="Login" EntitySet="Logins" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Lessons_Groups" Association="Self.FK_Lessons_Groups">
+      <End Role="Group" EntitySet="Groups" />
+      <End Role="Lesson" EntitySet="Lessons" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Students_Groups" Association="Self.FK_Students_Groups">
+      <End Role="Group" EntitySet="Groups" />
+      <End Role="Student" EntitySet="Students" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Lesson_Subjects" Association="Self.FK_Lesson_Subjects">
+      <End Role="Subject" EntitySet="Subjects" />
+      <End Role="Lesson" EntitySet="Lessons" />
+    </AssociationSet>
+    <AssociationSet Name="FK_LessonsStudents_Lessons" Association="Self.FK_LessonsStudents_Lessons">
+      <End Role="Lesson" EntitySet="Lessons" />
+      <End Role="LessonStudent" EntitySet="LessonStudents" />
+    </AssociationSet>
+    <AssociationSet Name="FK_LessonsStudents_Students" Association="Self.FK_LessonsStudents_Students">
+      <End Role="Student" EntitySet="Students" />
+      <End Role="LessonStudent" EntitySet="LessonStudents" />
+    </AssociationSet>
+    <AssociationSet Name="CurratorsAndSubject" Association="Self.CurratorsAndSubject">
+      <End Role="CuratorOrTeacher" EntitySet="CuratorOrTeachers" />
+      <End Role="Subject" EntitySet="Subjects" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

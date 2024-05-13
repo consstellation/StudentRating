@@ -1,0 +1,20 @@
+﻿WpfApp1
+
+
+winexe
+C#
+.cs
+D:\Проекты для гита\StudentRating\obj\Debug\
+WpfApp1
+none
+false
+DEBUG;TRACE
+D:\Проекты для гита\StudentRating\App.xaml
+162119196979
+2739969757
+32-804029946
+20-2052941518
+MainWindow.xaml;Pages\MainPage.xaml;Pages\SuccessAccountingStudent.xaml;Theme\ClassesConvert.xaml;Theme\MenuButtonTheme.xaml;Theme\Others.xaml;Theme\StyleButton.xaml;Authorization.xaml;Windows\AddClassWindow.xaml;Windows\AddGroupWindow.xaml;Windows\AddLoginWindow.xaml;Windows\AddStudentWindow.xaml;Windows\AddSubjectTeacher.xaml;Windows\AddSubjectWindow.xaml;Windows\AddTeacherWindow.xaml;Windows\SuccessAccoutingStudentWindow.xaml;
+
+False
+

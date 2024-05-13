@@ -1,0 +1,786 @@
+C:\Users\bette\Desktop\Дипломы\1\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\bette\Desktop\Дипломы\1\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\bette\Desktop\Дипломы\1\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\bette\Desktop\Дипломы\1\WpfApp1\bin\Debug\EntityFramework.dll
+C:\Users\bette\Desktop\Дипломы\1\WpfApp1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\bette\Desktop\Дипломы\1\WpfApp1\bin\Debug\EntityFramework.xml
+C:\Users\bette\Desktop\Дипломы\1\WpfApp1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\bette\Desktop\Дипломы\1\WpfApp1\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\bette\Desktop\Дипломы\1\WpfApp1\obj\Debug\WpfApp1.csproj.AssemblyReference.cache
+C:\Users\bette\Desktop\Дипломы\1\WpfApp1\obj\Debug\MainWindow.g.cs
+C:\Users\bette\Desktop\Дипломы\1\WpfApp1\obj\Debug\App.g.cs
+C:\Users\bette\Desktop\Дипломы\1\WpfApp1\obj\Debug\WpfApp1_Content.g.cs
+C:\Users\bette\Desktop\Дипломы\1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\bette\Desktop\Дипломы\1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\bette\Desktop\Дипломы\1\WpfApp1\obj\Debug\MainWindow.baml
+C:\Users\bette\Desktop\Дипломы\1\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\bette\Desktop\Дипломы\1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\bette\Desktop\Дипломы\1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Users\bette\Desktop\Дипломы\1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\bette\Desktop\Дипломы\1\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete
+C:\Users\bette\Desktop\Дипломы\1\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\bette\Desktop\Дипломы\1\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\Users\bette\Desktop\Дипломы\1\WpfApp1\obj\Debug\Pages\MainPage.g.cs
+C:\Users\bette\Desktop\Дипломы\1\WpfApp1\obj\Debug\Pages\MainPage.baml
+C:\Users\bette\Desktop\Diplom\1\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\bette\Desktop\Diplom\1\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\bette\Desktop\Diplom\1\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\bette\Desktop\Diplom\1\WpfApp1\bin\Debug\EntityFramework.dll
+C:\Users\bette\Desktop\Diplom\1\WpfApp1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\bette\Desktop\Diplom\1\WpfApp1\bin\Debug\EntityFramework.xml
+C:\Users\bette\Desktop\Diplom\1\WpfApp1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\bette\Desktop\Diplom\1\WpfApp1\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\bette\Desktop\Diplom\1\WpfApp1\obj\Debug\MainWindow.g.cs
+C:\Users\bette\Desktop\Diplom\1\WpfApp1\obj\Debug\Pages\AddLessonPage.g.cs
+C:\Users\bette\Desktop\Diplom\1\WpfApp1\obj\Debug\Pages\MainPage.g.cs
+C:\Users\bette\Desktop\Diplom\1\WpfApp1\obj\Debug\Windows\AddCLass.g.cs
+C:\Users\bette\Desktop\Diplom\1\WpfApp1\obj\Debug\App.g.cs
+C:\Users\bette\Desktop\Diplom\1\WpfApp1\obj\Debug\WpfApp1_Content.g.cs
+C:\Users\bette\Desktop\Diplom\1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\bette\Desktop\Diplom\1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\bette\Desktop\Diplom\1\WpfApp1\obj\Debug\MainWindow.baml
+C:\Users\bette\Desktop\Diplom\1\WpfApp1\obj\Debug\Pages\AddLessonPage.baml
+C:\Users\bette\Desktop\Diplom\1\WpfApp1\obj\Debug\Pages\MainPage.baml
+C:\Users\bette\Desktop\Diplom\1\WpfApp1\obj\Debug\Windows\AddCLass.baml
+C:\Users\bette\Desktop\Diplom\1\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\bette\Desktop\Diplom\1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\bette\Desktop\Diplom\1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Users\bette\Desktop\Diplom\1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\bette\Desktop\Diplom\1\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete
+C:\Users\bette\Desktop\Diplom\1\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\bette\Desktop\Diplom\1\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\Users\bette\Desktop\Diplom\1\WpfApp1\obj\Debug\WpfApp1.csproj.AssemblyReference.cache
+C:\Users\bette\Desktop\Diplom\2\WpfApp1\obj\Debug\MainWindow.g.cs
+C:\Users\bette\Desktop\Diplom\2\WpfApp1\obj\Debug\Pages\AddLessonPage.g.cs
+C:\Users\bette\Desktop\Diplom\2\WpfApp1\obj\Debug\Pages\MainPage.g.cs
+C:\Users\bette\Desktop\Diplom\2\WpfApp1\obj\Debug\App.g.cs
+C:\Users\bette\Desktop\Diplom\2\WpfApp1\obj\Debug\WpfApp1_Content.g.cs
+C:\Users\bette\Desktop\Diplom\2\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\bette\Desktop\Diplom\2\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\bette\Desktop\Diplom\2\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\bette\Desktop\Diplom\2\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\Users\bette\Desktop\Diplom\2\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\bette\Desktop\Diplom\2\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\bette\Desktop\Diplom\2\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\bette\Desktop\Diplom\2\WpfApp1\bin\Debug\EntityFramework.dll
+C:\Users\bette\Desktop\Diplom\2\WpfApp1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\bette\Desktop\Diplom\2\WpfApp1\bin\Debug\EntityFramework.xml
+C:\Users\bette\Desktop\Diplom\2\WpfApp1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\bette\Desktop\Diplom\2\WpfApp1\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\bette\Desktop\Diplom\2\WpfApp1\obj\Debug\MainWindow.baml
+C:\Users\bette\Desktop\Diplom\2\WpfApp1\obj\Debug\Pages\AddLessonPage.baml
+C:\Users\bette\Desktop\Diplom\2\WpfApp1\obj\Debug\Pages\MainPage.baml
+C:\Users\bette\Desktop\Diplom\2\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\bette\Desktop\Diplom\2\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\bette\Desktop\Diplom\2\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Users\bette\Desktop\Diplom\2\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\bette\Desktop\Diplom\2\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete
+C:\Users\bette\Desktop\Diplom\2\WpfApp1\obj\Debug\App.baml
+C:\Users\bette\Desktop\Diplom\2\WpfApp1\obj\Debug\Theme\MenuButtonTheme.baml
+C:\Users\bette\Desktop\Diplom\2\WpfApp1\obj\Debug\Theme\Others.baml
+C:\Users\bette\Desktop\Diplom\2\WpfApp1\obj\Debug\Theme\StyleButton.baml
+C:\Users\bette\Desktop\Diplom\2\WpfApp1\obj\Debug\Pages\SuccessAccountingStudent.g.cs
+C:\Users\bette\Desktop\Diplom\2\WpfApp1\obj\Debug\Pages\SuccessAccountingStudent.baml
+C:\Users\bette\Desktop\Diplom\2\WpfApp1\obj\Debug\Authorization.g.cs
+C:\Users\bette\Desktop\Diplom\2\WpfApp1\obj\Debug\Authorization.baml
+C:\Users\bette\Desktop\Diplom\2\WpfApp1\obj\Debug\Windows\AddClassWindow.g.cs
+C:\Users\bette\Desktop\Diplom\2\WpfApp1\obj\Debug\Windows\AddClassWindow.baml
+C:\Users\bette\Desktop\Diplom\2\WpfApp1\obj\Debug\Windows\UserWindow.g.cs
+C:\Users\bette\Desktop\Diplom\2\WpfApp1\obj\Debug\Windows\UserWindow.baml
+C:\Users\bette\Desktop\Diplom\ыыыы\WpfApp1\obj\Debug\Theme\MenuButtonTheme.baml
+C:\Users\bette\Desktop\Diplom\ыыыы\WpfApp1\obj\Debug\Theme\Others.baml
+C:\Users\bette\Desktop\Diplom\ыыыы\WpfApp1\obj\Debug\Theme\StyleButton.baml
+C:\Users\bette\Desktop\Diplom\ыыыы\WpfApp1\obj\Debug\MainWindow.g.cs
+C:\Users\bette\Desktop\Diplom\ыыыы\WpfApp1\obj\Debug\Pages\MainPage.g.cs
+C:\Users\bette\Desktop\Diplom\ыыыы\WpfApp1\obj\Debug\Pages\SuccessAccountingStudent.g.cs
+C:\Users\bette\Desktop\Diplom\ыыыы\WpfApp1\obj\Debug\Authorization.g.cs
+C:\Users\bette\Desktop\Diplom\ыыыы\WpfApp1\obj\Debug\Windows\AddClassWindow.g.cs
+C:\Users\bette\Desktop\Diplom\ыыыы\WpfApp1\obj\Debug\Windows\UserWindow.g.cs
+C:\Users\bette\Desktop\Diplom\ыыыы\WpfApp1\obj\Debug\App.g.cs
+C:\Users\bette\Desktop\Diplom\ыыыы\WpfApp1\obj\Debug\WpfApp1_Content.g.cs
+C:\Users\bette\Desktop\Diplom\ыыыы\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\bette\Desktop\Diplom\ыыыы\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\bette\Desktop\Diplom\ыыыы\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\bette\Desktop\Diplom\ыыыы\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\Users\bette\Desktop\Diplom\ыыыы\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\bette\Desktop\Diplom\ыыыы\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\bette\Desktop\Diplom\ыыыы\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\bette\Desktop\Diplom\ыыыы\WpfApp1\bin\Debug\EntityFramework.dll
+C:\Users\bette\Desktop\Diplom\ыыыы\WpfApp1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\bette\Desktop\Diplom\ыыыы\WpfApp1\bin\Debug\EntityFramework.xml
+C:\Users\bette\Desktop\Diplom\ыыыы\WpfApp1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\bette\Desktop\Diplom\ыыыы\WpfApp1\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\bette\Desktop\Diplom\ыыыы\WpfApp1\obj\Debug\App.baml
+C:\Users\bette\Desktop\Diplom\ыыыы\WpfApp1\obj\Debug\MainWindow.baml
+C:\Users\bette\Desktop\Diplom\ыыыы\WpfApp1\obj\Debug\Pages\MainPage.baml
+C:\Users\bette\Desktop\Diplom\ыыыы\WpfApp1\obj\Debug\Pages\SuccessAccountingStudent.baml
+C:\Users\bette\Desktop\Diplom\ыыыы\WpfApp1\obj\Debug\Authorization.baml
+C:\Users\bette\Desktop\Diplom\ыыыы\WpfApp1\obj\Debug\Windows\AddClassWindow.baml
+C:\Users\bette\Desktop\Diplom\ыыыы\WpfApp1\obj\Debug\Windows\UserWindow.baml
+C:\Users\bette\Desktop\Diplom\ыыыы\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\bette\Desktop\Diplom\ыыыы\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\bette\Desktop\Diplom\ыыыы\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Users\bette\Desktop\Diplom\ыыыы\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\bette\Desktop\Diplom\ыыыы\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete
+C:\Users\bette\Desktop\Diplom\28.05\WpfApp1\obj\Debug\Theme\MenuButtonTheme.baml
+C:\Users\bette\Desktop\Diplom\28.05\WpfApp1\obj\Debug\Theme\Others.baml
+C:\Users\bette\Desktop\Diplom\28.05\WpfApp1\obj\Debug\Theme\StyleButton.baml
+C:\Users\bette\Desktop\Diplom\28.05\WpfApp1\obj\Debug\MainWindow.g.cs
+C:\Users\bette\Desktop\Diplom\28.05\WpfApp1\obj\Debug\Pages\MainPage.g.cs
+C:\Users\bette\Desktop\Diplom\28.05\WpfApp1\obj\Debug\Pages\SuccessAccountingStudent.g.cs
+C:\Users\bette\Desktop\Diplom\28.05\WpfApp1\obj\Debug\Authorization.g.cs
+C:\Users\bette\Desktop\Diplom\28.05\WpfApp1\obj\Debug\Windows\AddClassWindow.g.cs
+C:\Users\bette\Desktop\Diplom\28.05\WpfApp1\obj\Debug\Windows\UserWindow.g.cs
+C:\Users\bette\Desktop\Diplom\28.05\WpfApp1\obj\Debug\App.g.cs
+C:\Users\bette\Desktop\Diplom\28.05\WpfApp1\obj\Debug\WpfApp1_Content.g.cs
+C:\Users\bette\Desktop\Diplom\28.05\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\bette\Desktop\Diplom\28.05\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\bette\Desktop\Diplom\28.05\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\bette\Desktop\Diplom\28.05\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\Users\bette\Desktop\Diplom\28.05\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\bette\Desktop\Diplom\28.05\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\bette\Desktop\Diplom\28.05\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\bette\Desktop\Diplom\28.05\WpfApp1\bin\Debug\EntityFramework.dll
+C:\Users\bette\Desktop\Diplom\28.05\WpfApp1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\bette\Desktop\Diplom\28.05\WpfApp1\bin\Debug\EntityFramework.xml
+C:\Users\bette\Desktop\Diplom\28.05\WpfApp1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\bette\Desktop\Diplom\28.05\WpfApp1\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\bette\Desktop\Diplom\28.05\WpfApp1\obj\Debug\App.baml
+C:\Users\bette\Desktop\Diplom\28.05\WpfApp1\obj\Debug\MainWindow.baml
+C:\Users\bette\Desktop\Diplom\28.05\WpfApp1\obj\Debug\Pages\MainPage.baml
+C:\Users\bette\Desktop\Diplom\28.05\WpfApp1\obj\Debug\Pages\SuccessAccountingStudent.baml
+C:\Users\bette\Desktop\Diplom\28.05\WpfApp1\obj\Debug\Authorization.baml
+C:\Users\bette\Desktop\Diplom\28.05\WpfApp1\obj\Debug\Windows\AddClassWindow.baml
+C:\Users\bette\Desktop\Diplom\28.05\WpfApp1\obj\Debug\Windows\UserWindow.baml
+C:\Users\bette\Desktop\Diplom\28.05\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\bette\Desktop\Diplom\28.05\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\bette\Desktop\Diplom\28.05\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Users\bette\Desktop\Diplom\28.05\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\bette\Desktop\Diplom\28.05\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete
+C:\Users\bette\Desktop\Diplom\29.05\WpfApp1\obj\Debug\Theme\MenuButtonTheme.baml
+C:\Users\bette\Desktop\Diplom\29.05\WpfApp1\obj\Debug\Theme\Others.baml
+C:\Users\bette\Desktop\Diplom\29.05\WpfApp1\obj\Debug\Theme\StyleButton.baml
+C:\Users\bette\Desktop\Diplom\29.05\WpfApp1\obj\Debug\MainWindow.g.cs
+C:\Users\bette\Desktop\Diplom\29.05\WpfApp1\obj\Debug\Pages\MainPage.g.cs
+C:\Users\bette\Desktop\Diplom\29.05\WpfApp1\obj\Debug\Pages\SuccessAccountingStudent.g.cs
+C:\Users\bette\Desktop\Diplom\29.05\WpfApp1\obj\Debug\Authorization.g.cs
+C:\Users\bette\Desktop\Diplom\29.05\WpfApp1\obj\Debug\Windows\AddClassWindow.g.cs
+C:\Users\bette\Desktop\Diplom\29.05\WpfApp1\obj\Debug\App.g.cs
+C:\Users\bette\Desktop\Diplom\29.05\WpfApp1\obj\Debug\WpfApp1_Content.g.cs
+C:\Users\bette\Desktop\Diplom\29.05\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\bette\Desktop\Diplom\29.05\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\bette\Desktop\Diplom\29.05\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\bette\Desktop\Diplom\29.05\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\Users\bette\Desktop\Diplom\29.05\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\bette\Desktop\Diplom\29.05\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\bette\Desktop\Diplom\29.05\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\bette\Desktop\Diplom\29.05\WpfApp1\bin\Debug\EntityFramework.dll
+C:\Users\bette\Desktop\Diplom\29.05\WpfApp1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\bette\Desktop\Diplom\29.05\WpfApp1\bin\Debug\EntityFramework.xml
+C:\Users\bette\Desktop\Diplom\29.05\WpfApp1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\bette\Desktop\Diplom\29.05\WpfApp1\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\bette\Desktop\Diplom\29.05\WpfApp1\obj\Debug\App.baml
+C:\Users\bette\Desktop\Diplom\29.05\WpfApp1\obj\Debug\MainWindow.baml
+C:\Users\bette\Desktop\Diplom\29.05\WpfApp1\obj\Debug\Pages\MainPage.baml
+C:\Users\bette\Desktop\Diplom\29.05\WpfApp1\obj\Debug\Pages\SuccessAccountingStudent.baml
+C:\Users\bette\Desktop\Diplom\29.05\WpfApp1\obj\Debug\Authorization.baml
+C:\Users\bette\Desktop\Diplom\29.05\WpfApp1\obj\Debug\Windows\AddClassWindow.baml
+C:\Users\bette\Desktop\Diplom\29.05\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\bette\Desktop\Diplom\29.05\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\bette\Desktop\Diplom\29.05\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Users\bette\Desktop\Diplom\29.05\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\bette\Desktop\Diplom\29.05\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete
+C:\Users\bette\Desktop\Diplom\29.05\WpfApp1\obj\Debug\Windows\AddTeacherWindow.g.cs
+C:\Users\bette\Desktop\Diplom\29.05\WpfApp1\obj\Debug\Windows\AddTeacherWindow.baml
+C:\Users\bette\Desktop\Diplom\29.05\WpfApp1\obj\Debug\Windows\AddLoginWindow.g.cs
+C:\Users\bette\Desktop\Diplom\29.05\WpfApp1\obj\Debug\Windows\AddLoginWindow.baml
+C:\Users\bette\Desktop\Diplom\29.05\WpfApp1\obj\Debug\Windows\SuccessAccoutingStudentWindow.g.cs
+C:\Users\bette\Desktop\Diplom\29.05\WpfApp1\obj\Debug\Windows\SuccessAccoutingStudentWindow.baml
+C:\Users\bette\Desktop\Diplom\29.05\WpfApp1\obj\Debug\Windows\AddGroupWindow.g.cs
+C:\Users\bette\Desktop\Diplom\29.05\WpfApp1\obj\Debug\Windows\AddGroupWindow.baml
+C:\Users\bette\Desktop\Diplom\29.05\WpfApp1\obj\Debug\Windows\AddStudentWindow.g.cs
+C:\Users\bette\Desktop\Diplom\29.05\WpfApp1\obj\Debug\Windows\AddStudentWindow.baml
+C:\Users\bette\Desktop\Diplom\29.05\WpfApp1\obj\Debug\Windows\AddSubjectWindow.g.cs
+C:\Users\bette\Desktop\Diplom\29.05\WpfApp1\obj\Debug\Windows\AddSubjectWindow.baml
+C:\Users\bette\Desktop\Diplom\29.05\WpfApp1\obj\Debug\WpfApp1.csproj.AssemblyReference.cache
+C:\Users\bette\Desktop\Diplom\30.05\WpfApp1\obj\Debug\WpfApp1.csproj.AssemblyReference.cache
+C:\Users\bette\Desktop\Diplom\30.05\WpfApp1\obj\Debug\Theme\MenuButtonTheme.baml
+C:\Users\bette\Desktop\Diplom\30.05\WpfApp1\obj\Debug\Theme\Others.baml
+C:\Users\bette\Desktop\Diplom\30.05\WpfApp1\obj\Debug\Theme\StyleButton.baml
+C:\Users\bette\Desktop\Diplom\30.05\WpfApp1\obj\Debug\MainWindow.g.cs
+C:\Users\bette\Desktop\Diplom\30.05\WpfApp1\obj\Debug\Pages\MainPage.g.cs
+C:\Users\bette\Desktop\Diplom\30.05\WpfApp1\obj\Debug\Pages\SuccessAccountingStudent.g.cs
+C:\Users\bette\Desktop\Diplom\30.05\WpfApp1\obj\Debug\Authorization.g.cs
+C:\Users\bette\Desktop\Diplom\30.05\WpfApp1\obj\Debug\Windows\AddClassWindow.g.cs
+C:\Users\bette\Desktop\Diplom\30.05\WpfApp1\obj\Debug\Windows\AddGroupWindow.g.cs
+C:\Users\bette\Desktop\Diplom\30.05\WpfApp1\obj\Debug\Windows\AddLoginWindow.g.cs
+C:\Users\bette\Desktop\Diplom\30.05\WpfApp1\obj\Debug\Windows\AddStudentWindow.g.cs
+C:\Users\bette\Desktop\Diplom\30.05\WpfApp1\obj\Debug\Windows\AddSubjectWindow.g.cs
+C:\Users\bette\Desktop\Diplom\30.05\WpfApp1\obj\Debug\Windows\AddTeacherWindow.g.cs
+C:\Users\bette\Desktop\Diplom\30.05\WpfApp1\obj\Debug\Windows\SuccessAccoutingStudentWindow.g.cs
+C:\Users\bette\Desktop\Diplom\30.05\WpfApp1\obj\Debug\App.g.cs
+C:\Users\bette\Desktop\Diplom\30.05\WpfApp1\obj\Debug\WpfApp1_Content.g.cs
+C:\Users\bette\Desktop\Diplom\30.05\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\bette\Desktop\Diplom\30.05\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\bette\Desktop\Diplom\30.05\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\bette\Desktop\Diplom\30.05\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\Users\bette\Desktop\Diplom\30.05\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\bette\Desktop\Diplom\30.05\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\bette\Desktop\Diplom\30.05\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\bette\Desktop\Diplom\30.05\WpfApp1\bin\Debug\EntityFramework.dll
+C:\Users\bette\Desktop\Diplom\30.05\WpfApp1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\bette\Desktop\Diplom\30.05\WpfApp1\bin\Debug\EntityFramework.xml
+C:\Users\bette\Desktop\Diplom\30.05\WpfApp1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\bette\Desktop\Diplom\30.05\WpfApp1\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\bette\Desktop\Diplom\30.05\WpfApp1\obj\Debug\App.baml
+C:\Users\bette\Desktop\Diplom\30.05\WpfApp1\obj\Debug\MainWindow.baml
+C:\Users\bette\Desktop\Diplom\30.05\WpfApp1\obj\Debug\Pages\MainPage.baml
+C:\Users\bette\Desktop\Diplom\30.05\WpfApp1\obj\Debug\Pages\SuccessAccountingStudent.baml
+C:\Users\bette\Desktop\Diplom\30.05\WpfApp1\obj\Debug\Authorization.baml
+C:\Users\bette\Desktop\Diplom\30.05\WpfApp1\obj\Debug\Windows\AddClassWindow.baml
+C:\Users\bette\Desktop\Diplom\30.05\WpfApp1\obj\Debug\Windows\AddGroupWindow.baml
+C:\Users\bette\Desktop\Diplom\30.05\WpfApp1\obj\Debug\Windows\AddLoginWindow.baml
+C:\Users\bette\Desktop\Diplom\30.05\WpfApp1\obj\Debug\Windows\AddStudentWindow.baml
+C:\Users\bette\Desktop\Diplom\30.05\WpfApp1\obj\Debug\Windows\AddSubjectWindow.baml
+C:\Users\bette\Desktop\Diplom\30.05\WpfApp1\obj\Debug\Windows\AddTeacherWindow.baml
+C:\Users\bette\Desktop\Diplom\30.05\WpfApp1\obj\Debug\Windows\SuccessAccoutingStudentWindow.baml
+C:\Users\bette\Desktop\Diplom\30.05\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\bette\Desktop\Diplom\30.05\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\bette\Desktop\Diplom\30.05\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Users\bette\Desktop\Diplom\30.05\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\bette\Desktop\Diplom\30.05\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete
+C:\Users\bette\Desktop\Diplom\31.05\WpfApp1\obj\Debug\Theme\MenuButtonTheme.baml
+C:\Users\bette\Desktop\Diplom\31.05\WpfApp1\obj\Debug\Theme\Others.baml
+C:\Users\bette\Desktop\Diplom\31.05\WpfApp1\obj\Debug\Theme\StyleButton.baml
+C:\Users\bette\Desktop\Diplom\31.05\WpfApp1\obj\Debug\MainWindow.g.cs
+C:\Users\bette\Desktop\Diplom\31.05\WpfApp1\obj\Debug\Pages\MainPage.g.cs
+C:\Users\bette\Desktop\Diplom\31.05\WpfApp1\obj\Debug\Pages\SuccessAccountingStudent.g.cs
+C:\Users\bette\Desktop\Diplom\31.05\WpfApp1\obj\Debug\Authorization.g.cs
+C:\Users\bette\Desktop\Diplom\31.05\WpfApp1\obj\Debug\Windows\AddClassWindow.g.cs
+C:\Users\bette\Desktop\Diplom\31.05\WpfApp1\obj\Debug\Windows\AddGroupWindow.g.cs
+C:\Users\bette\Desktop\Diplom\31.05\WpfApp1\obj\Debug\Windows\AddLoginWindow.g.cs
+C:\Users\bette\Desktop\Diplom\31.05\WpfApp1\obj\Debug\Windows\AddStudentWindow.g.cs
+C:\Users\bette\Desktop\Diplom\31.05\WpfApp1\obj\Debug\Windows\AddSubjectWindow.g.cs
+C:\Users\bette\Desktop\Diplom\31.05\WpfApp1\obj\Debug\Windows\AddTeacherWindow.g.cs
+C:\Users\bette\Desktop\Diplom\31.05\WpfApp1\obj\Debug\Windows\SuccessAccoutingStudentWindow.g.cs
+C:\Users\bette\Desktop\Diplom\31.05\WpfApp1\obj\Debug\App.g.cs
+C:\Users\bette\Desktop\Diplom\31.05\WpfApp1\obj\Debug\WpfApp1_Content.g.cs
+C:\Users\bette\Desktop\Diplom\31.05\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\bette\Desktop\Diplom\31.05\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\bette\Desktop\Diplom\31.05\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\bette\Desktop\Diplom\31.05\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\Users\bette\Desktop\Diplom\31.05\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\bette\Desktop\Diplom\31.05\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\bette\Desktop\Diplom\31.05\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\bette\Desktop\Diplom\31.05\WpfApp1\bin\Debug\EntityFramework.dll
+C:\Users\bette\Desktop\Diplom\31.05\WpfApp1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\bette\Desktop\Diplom\31.05\WpfApp1\bin\Debug\EntityFramework.xml
+C:\Users\bette\Desktop\Diplom\31.05\WpfApp1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\bette\Desktop\Diplom\31.05\WpfApp1\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\bette\Desktop\Diplom\31.05\WpfApp1\obj\Debug\App.baml
+C:\Users\bette\Desktop\Diplom\31.05\WpfApp1\obj\Debug\MainWindow.baml
+C:\Users\bette\Desktop\Diplom\31.05\WpfApp1\obj\Debug\Pages\MainPage.baml
+C:\Users\bette\Desktop\Diplom\31.05\WpfApp1\obj\Debug\Pages\SuccessAccountingStudent.baml
+C:\Users\bette\Desktop\Diplom\31.05\WpfApp1\obj\Debug\Authorization.baml
+C:\Users\bette\Desktop\Diplom\31.05\WpfApp1\obj\Debug\Windows\AddClassWindow.baml
+C:\Users\bette\Desktop\Diplom\31.05\WpfApp1\obj\Debug\Windows\AddGroupWindow.baml
+C:\Users\bette\Desktop\Diplom\31.05\WpfApp1\obj\Debug\Windows\AddLoginWindow.baml
+C:\Users\bette\Desktop\Diplom\31.05\WpfApp1\obj\Debug\Windows\AddStudentWindow.baml
+C:\Users\bette\Desktop\Diplom\31.05\WpfApp1\obj\Debug\Windows\AddSubjectWindow.baml
+C:\Users\bette\Desktop\Diplom\31.05\WpfApp1\obj\Debug\Windows\AddTeacherWindow.baml
+C:\Users\bette\Desktop\Diplom\31.05\WpfApp1\obj\Debug\Windows\SuccessAccoutingStudentWindow.baml
+C:\Users\bette\Desktop\Diplom\31.05\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\bette\Desktop\Diplom\31.05\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\bette\Desktop\Diplom\31.05\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Users\bette\Desktop\Diplom\31.05\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\bette\Desktop\Diplom\31.05\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete
+C:\Users\bette\Desktop\Diplom\31.05(filter_ready)\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\bette\Desktop\Diplom\31.05(filter_ready)\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\bette\Desktop\Diplom\31.05(filter_ready)\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\bette\Desktop\Diplom\31.05(filter_ready)\WpfApp1\bin\Debug\EntityFramework.dll
+C:\Users\bette\Desktop\Diplom\31.05(filter_ready)\WpfApp1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\bette\Desktop\Diplom\31.05(filter_ready)\WpfApp1\bin\Debug\EntityFramework.xml
+C:\Users\bette\Desktop\Diplom\31.05(filter_ready)\WpfApp1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\bette\Desktop\Diplom\31.05(filter_ready)\WpfApp1\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\bette\Desktop\Diplom\31.05(filter_ready)\WpfApp1\obj\Debug\WpfApp1.csproj.AssemblyReference.cache
+C:\Users\bette\Desktop\Diplom\31.05(filter_ready)\WpfApp1\obj\Debug\Theme\MenuButtonTheme.baml
+C:\Users\bette\Desktop\Diplom\31.05(filter_ready)\WpfApp1\obj\Debug\Theme\Others.baml
+C:\Users\bette\Desktop\Diplom\31.05(filter_ready)\WpfApp1\obj\Debug\Theme\StyleButton.baml
+C:\Users\bette\Desktop\Diplom\31.05(filter_ready)\WpfApp1\obj\Debug\MainWindow.g.cs
+C:\Users\bette\Desktop\Diplom\31.05(filter_ready)\WpfApp1\obj\Debug\Pages\MainPage.g.cs
+C:\Users\bette\Desktop\Diplom\31.05(filter_ready)\WpfApp1\obj\Debug\Pages\SuccessAccountingStudent.g.cs
+C:\Users\bette\Desktop\Diplom\31.05(filter_ready)\WpfApp1\obj\Debug\Authorization.g.cs
+C:\Users\bette\Desktop\Diplom\31.05(filter_ready)\WpfApp1\obj\Debug\Windows\AddClassWindow.g.cs
+C:\Users\bette\Desktop\Diplom\31.05(filter_ready)\WpfApp1\obj\Debug\Windows\AddGroupWindow.g.cs
+C:\Users\bette\Desktop\Diplom\31.05(filter_ready)\WpfApp1\obj\Debug\Windows\AddLoginWindow.g.cs
+C:\Users\bette\Desktop\Diplom\31.05(filter_ready)\WpfApp1\obj\Debug\Windows\AddStudentWindow.g.cs
+C:\Users\bette\Desktop\Diplom\31.05(filter_ready)\WpfApp1\obj\Debug\Windows\AddSubjectWindow.g.cs
+C:\Users\bette\Desktop\Diplom\31.05(filter_ready)\WpfApp1\obj\Debug\Windows\AddTeacherWindow.g.cs
+C:\Users\bette\Desktop\Diplom\31.05(filter_ready)\WpfApp1\obj\Debug\Windows\SuccessAccoutingStudentWindow.g.cs
+C:\Users\bette\Desktop\Diplom\31.05(filter_ready)\WpfApp1\obj\Debug\App.g.cs
+C:\Users\bette\Desktop\Diplom\31.05(filter_ready)\WpfApp1\obj\Debug\WpfApp1_Content.g.cs
+C:\Users\bette\Desktop\Diplom\31.05(filter_ready)\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\bette\Desktop\Diplom\31.05(filter_ready)\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\bette\Desktop\Diplom\31.05(filter_ready)\WpfApp1\obj\Debug\App.baml
+C:\Users\bette\Desktop\Diplom\31.05(filter_ready)\WpfApp1\obj\Debug\MainWindow.baml
+C:\Users\bette\Desktop\Diplom\31.05(filter_ready)\WpfApp1\obj\Debug\Pages\MainPage.baml
+C:\Users\bette\Desktop\Diplom\31.05(filter_ready)\WpfApp1\obj\Debug\Pages\SuccessAccountingStudent.baml
+C:\Users\bette\Desktop\Diplom\31.05(filter_ready)\WpfApp1\obj\Debug\Authorization.baml
+C:\Users\bette\Desktop\Diplom\31.05(filter_ready)\WpfApp1\obj\Debug\Windows\AddClassWindow.baml
+C:\Users\bette\Desktop\Diplom\31.05(filter_ready)\WpfApp1\obj\Debug\Windows\AddGroupWindow.baml
+C:\Users\bette\Desktop\Diplom\31.05(filter_ready)\WpfApp1\obj\Debug\Windows\AddLoginWindow.baml
+C:\Users\bette\Desktop\Diplom\31.05(filter_ready)\WpfApp1\obj\Debug\Windows\AddStudentWindow.baml
+C:\Users\bette\Desktop\Diplom\31.05(filter_ready)\WpfApp1\obj\Debug\Windows\AddSubjectWindow.baml
+C:\Users\bette\Desktop\Diplom\31.05(filter_ready)\WpfApp1\obj\Debug\Windows\AddTeacherWindow.baml
+C:\Users\bette\Desktop\Diplom\31.05(filter_ready)\WpfApp1\obj\Debug\Windows\SuccessAccoutingStudentWindow.baml
+C:\Users\bette\Desktop\Diplom\31.05(filter_ready)\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\bette\Desktop\Diplom\31.05(filter_ready)\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\bette\Desktop\Diplom\31.05(filter_ready)\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Users\bette\Desktop\Diplom\31.05(filter_ready)\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\bette\Desktop\Diplom\31.05(filter_ready)\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete
+C:\Users\bette\Desktop\Diplom\31.05(filter_ready)\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\bette\Desktop\Diplom\31.05(filter_ready)\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\Users\bette\Desktop\Diplom\1.06\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\bette\Desktop\Diplom\1.06\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\bette\Desktop\Diplom\1.06\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\bette\Desktop\Diplom\1.06\WpfApp1\bin\Debug\EntityFramework.dll
+C:\Users\bette\Desktop\Diplom\1.06\WpfApp1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\bette\Desktop\Diplom\1.06\WpfApp1\bin\Debug\EntityFramework.xml
+C:\Users\bette\Desktop\Diplom\1.06\WpfApp1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\bette\Desktop\Diplom\1.06\WpfApp1\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\bette\Desktop\Diplom\1.06\WpfApp1\obj\Debug\WpfApp1.csproj.AssemblyReference.cache
+C:\Users\bette\Desktop\Diplom\1.06\WpfApp1\obj\Debug\Theme\MenuButtonTheme.baml
+C:\Users\bette\Desktop\Diplom\1.06\WpfApp1\obj\Debug\Theme\Others.baml
+C:\Users\bette\Desktop\Diplom\1.06\WpfApp1\obj\Debug\Theme\StyleButton.baml
+C:\Users\bette\Desktop\Diplom\1.06\WpfApp1\obj\Debug\MainWindow.g.cs
+C:\Users\bette\Desktop\Diplom\1.06\WpfApp1\obj\Debug\Pages\MainPage.g.cs
+C:\Users\bette\Desktop\Diplom\1.06\WpfApp1\obj\Debug\Pages\SuccessAccountingStudent.g.cs
+C:\Users\bette\Desktop\Diplom\1.06\WpfApp1\obj\Debug\Authorization.g.cs
+C:\Users\bette\Desktop\Diplom\1.06\WpfApp1\obj\Debug\Windows\AddClassWindow.g.cs
+C:\Users\bette\Desktop\Diplom\1.06\WpfApp1\obj\Debug\Windows\AddGroupWindow.g.cs
+C:\Users\bette\Desktop\Diplom\1.06\WpfApp1\obj\Debug\Windows\AddLoginWindow.g.cs
+C:\Users\bette\Desktop\Diplom\1.06\WpfApp1\obj\Debug\Windows\AddStudentWindow.g.cs
+C:\Users\bette\Desktop\Diplom\1.06\WpfApp1\obj\Debug\Windows\AddSubjectWindow.g.cs
+C:\Users\bette\Desktop\Diplom\1.06\WpfApp1\obj\Debug\Windows\AddTeacherWindow.g.cs
+C:\Users\bette\Desktop\Diplom\1.06\WpfApp1\obj\Debug\Windows\SuccessAccoutingStudentWindow.g.cs
+C:\Users\bette\Desktop\Diplom\1.06\WpfApp1\obj\Debug\App.g.cs
+C:\Users\bette\Desktop\Diplom\1.06\WpfApp1\obj\Debug\WpfApp1_Content.g.cs
+C:\Users\bette\Desktop\Diplom\1.06\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\bette\Desktop\Diplom\1.06\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\bette\Desktop\Diplom\1.06\WpfApp1\obj\Debug\App.baml
+C:\Users\bette\Desktop\Diplom\1.06\WpfApp1\obj\Debug\MainWindow.baml
+C:\Users\bette\Desktop\Diplom\1.06\WpfApp1\obj\Debug\Pages\MainPage.baml
+C:\Users\bette\Desktop\Diplom\1.06\WpfApp1\obj\Debug\Pages\SuccessAccountingStudent.baml
+C:\Users\bette\Desktop\Diplom\1.06\WpfApp1\obj\Debug\Authorization.baml
+C:\Users\bette\Desktop\Diplom\1.06\WpfApp1\obj\Debug\Windows\AddClassWindow.baml
+C:\Users\bette\Desktop\Diplom\1.06\WpfApp1\obj\Debug\Windows\AddGroupWindow.baml
+C:\Users\bette\Desktop\Diplom\1.06\WpfApp1\obj\Debug\Windows\AddLoginWindow.baml
+C:\Users\bette\Desktop\Diplom\1.06\WpfApp1\obj\Debug\Windows\AddStudentWindow.baml
+C:\Users\bette\Desktop\Diplom\1.06\WpfApp1\obj\Debug\Windows\AddSubjectWindow.baml
+C:\Users\bette\Desktop\Diplom\1.06\WpfApp1\obj\Debug\Windows\AddTeacherWindow.baml
+C:\Users\bette\Desktop\Diplom\1.06\WpfApp1\obj\Debug\Windows\SuccessAccoutingStudentWindow.baml
+C:\Users\bette\Desktop\Diplom\1.06\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\bette\Desktop\Diplom\1.06\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\bette\Desktop\Diplom\1.06\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Users\bette\Desktop\Diplom\1.06\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\bette\Desktop\Diplom\1.06\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete
+C:\Users\bette\Desktop\Diplom\1.06\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\bette\Desktop\Diplom\1.06\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\Users\bette\Desktop\Diplom\1.06\WpfApp1\obj\Debug\Windows\AddSubjectTeacher.g.cs
+C:\Users\bette\Desktop\Diplom\1.06\WpfApp1\obj\Debug\Windows\AddSubjectTeacher.baml
+C:\Users\bette\Desktop\Diplom\02.06\WpfApp1\obj\Debug\Theme\MenuButtonTheme.baml
+C:\Users\bette\Desktop\Diplom\02.06\WpfApp1\obj\Debug\Theme\Others.baml
+C:\Users\bette\Desktop\Diplom\02.06\WpfApp1\obj\Debug\Theme\StyleButton.baml
+C:\Users\bette\Desktop\Diplom\02.06\WpfApp1\obj\Debug\MainWindow.g.cs
+C:\Users\bette\Desktop\Diplom\02.06\WpfApp1\obj\Debug\Pages\MainPage.g.cs
+C:\Users\bette\Desktop\Diplom\02.06\WpfApp1\obj\Debug\Pages\SuccessAccountingStudent.g.cs
+C:\Users\bette\Desktop\Diplom\02.06\WpfApp1\obj\Debug\Authorization.g.cs
+C:\Users\bette\Desktop\Diplom\02.06\WpfApp1\obj\Debug\Windows\AddClassWindow.g.cs
+C:\Users\bette\Desktop\Diplom\02.06\WpfApp1\obj\Debug\Windows\AddGroupWindow.g.cs
+C:\Users\bette\Desktop\Diplom\02.06\WpfApp1\obj\Debug\Windows\AddLoginWindow.g.cs
+C:\Users\bette\Desktop\Diplom\02.06\WpfApp1\obj\Debug\Windows\AddStudentWindow.g.cs
+C:\Users\bette\Desktop\Diplom\02.06\WpfApp1\obj\Debug\Windows\AddSubjectTeacher.g.cs
+C:\Users\bette\Desktop\Diplom\02.06\WpfApp1\obj\Debug\Windows\AddSubjectWindow.g.cs
+C:\Users\bette\Desktop\Diplom\02.06\WpfApp1\obj\Debug\Windows\AddTeacherWindow.g.cs
+C:\Users\bette\Desktop\Diplom\02.06\WpfApp1\obj\Debug\Windows\SuccessAccoutingStudentWindow.g.cs
+C:\Users\bette\Desktop\Diplom\02.06\WpfApp1\obj\Debug\App.g.cs
+C:\Users\bette\Desktop\Diplom\02.06\WpfApp1\obj\Debug\WpfApp1_Content.g.cs
+C:\Users\bette\Desktop\Diplom\02.06\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\bette\Desktop\Diplom\02.06\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\bette\Desktop\Diplom\02.06\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\bette\Desktop\Diplom\02.06\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\Users\bette\Desktop\Diplom\02.06\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\bette\Desktop\Diplom\02.06\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\bette\Desktop\Diplom\02.06\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\bette\Desktop\Diplom\02.06\WpfApp1\bin\Debug\EntityFramework.dll
+C:\Users\bette\Desktop\Diplom\02.06\WpfApp1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\bette\Desktop\Diplom\02.06\WpfApp1\bin\Debug\EntityFramework.xml
+C:\Users\bette\Desktop\Diplom\02.06\WpfApp1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\bette\Desktop\Diplom\02.06\WpfApp1\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\bette\Desktop\Diplom\02.06\WpfApp1\obj\Debug\App.baml
+C:\Users\bette\Desktop\Diplom\02.06\WpfApp1\obj\Debug\MainWindow.baml
+C:\Users\bette\Desktop\Diplom\02.06\WpfApp1\obj\Debug\Pages\MainPage.baml
+C:\Users\bette\Desktop\Diplom\02.06\WpfApp1\obj\Debug\Pages\SuccessAccountingStudent.baml
+C:\Users\bette\Desktop\Diplom\02.06\WpfApp1\obj\Debug\Authorization.baml
+C:\Users\bette\Desktop\Diplom\02.06\WpfApp1\obj\Debug\Windows\AddClassWindow.baml
+C:\Users\bette\Desktop\Diplom\02.06\WpfApp1\obj\Debug\Windows\AddGroupWindow.baml
+C:\Users\bette\Desktop\Diplom\02.06\WpfApp1\obj\Debug\Windows\AddLoginWindow.baml
+C:\Users\bette\Desktop\Diplom\02.06\WpfApp1\obj\Debug\Windows\AddStudentWindow.baml
+C:\Users\bette\Desktop\Diplom\02.06\WpfApp1\obj\Debug\Windows\AddSubjectTeacher.baml
+C:\Users\bette\Desktop\Diplom\02.06\WpfApp1\obj\Debug\Windows\AddSubjectWindow.baml
+C:\Users\bette\Desktop\Diplom\02.06\WpfApp1\obj\Debug\Windows\AddTeacherWindow.baml
+C:\Users\bette\Desktop\Diplom\02.06\WpfApp1\obj\Debug\Windows\SuccessAccoutingStudentWindow.baml
+C:\Users\bette\Desktop\Diplom\02.06\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\bette\Desktop\Diplom\02.06\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\bette\Desktop\Diplom\02.06\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Users\bette\Desktop\Diplom\02.06\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\bette\Desktop\Diplom\02.06\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete
+C:\Users\bette\Desktop\Diplom\03.06\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\bette\Desktop\Diplom\03.06\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\bette\Desktop\Diplom\03.06\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\bette\Desktop\Diplom\03.06\WpfApp1\bin\Debug\EntityFramework.dll
+C:\Users\bette\Desktop\Diplom\03.06\WpfApp1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\bette\Desktop\Diplom\03.06\WpfApp1\bin\Debug\EntityFramework.xml
+C:\Users\bette\Desktop\Diplom\03.06\WpfApp1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\bette\Desktop\Diplom\03.06\WpfApp1\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\bette\Desktop\Diplom\03.06\WpfApp1\obj\Debug\WpfApp1.csproj.AssemblyReference.cache
+C:\Users\bette\Desktop\Diplom\03.06\WpfApp1\obj\Debug\Theme\MenuButtonTheme.baml
+C:\Users\bette\Desktop\Diplom\03.06\WpfApp1\obj\Debug\Theme\Others.baml
+C:\Users\bette\Desktop\Diplom\03.06\WpfApp1\obj\Debug\Theme\StyleButton.baml
+C:\Users\bette\Desktop\Diplom\03.06\WpfApp1\obj\Debug\MainWindow.g.cs
+C:\Users\bette\Desktop\Diplom\03.06\WpfApp1\obj\Debug\Pages\MainPage.g.cs
+C:\Users\bette\Desktop\Diplom\03.06\WpfApp1\obj\Debug\Pages\SuccessAccountingStudent.g.cs
+C:\Users\bette\Desktop\Diplom\03.06\WpfApp1\obj\Debug\Authorization.g.cs
+C:\Users\bette\Desktop\Diplom\03.06\WpfApp1\obj\Debug\Windows\AddClassWindow.g.cs
+C:\Users\bette\Desktop\Diplom\03.06\WpfApp1\obj\Debug\Windows\AddGroupWindow.g.cs
+C:\Users\bette\Desktop\Diplom\03.06\WpfApp1\obj\Debug\Windows\AddLoginWindow.g.cs
+C:\Users\bette\Desktop\Diplom\03.06\WpfApp1\obj\Debug\Windows\AddStudentWindow.g.cs
+C:\Users\bette\Desktop\Diplom\03.06\WpfApp1\obj\Debug\Windows\AddSubjectTeacher.g.cs
+C:\Users\bette\Desktop\Diplom\03.06\WpfApp1\obj\Debug\Windows\AddSubjectWindow.g.cs
+C:\Users\bette\Desktop\Diplom\03.06\WpfApp1\obj\Debug\Windows\AddTeacherWindow.g.cs
+C:\Users\bette\Desktop\Diplom\03.06\WpfApp1\obj\Debug\Windows\SuccessAccoutingStudentWindow.g.cs
+C:\Users\bette\Desktop\Diplom\03.06\WpfApp1\obj\Debug\App.g.cs
+C:\Users\bette\Desktop\Diplom\03.06\WpfApp1\obj\Debug\WpfApp1_Content.g.cs
+C:\Users\bette\Desktop\Diplom\03.06\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\bette\Desktop\Diplom\03.06\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\bette\Desktop\Diplom\03.06\WpfApp1\obj\Debug\App.baml
+C:\Users\bette\Desktop\Diplom\03.06\WpfApp1\obj\Debug\MainWindow.baml
+C:\Users\bette\Desktop\Diplom\03.06\WpfApp1\obj\Debug\Pages\MainPage.baml
+C:\Users\bette\Desktop\Diplom\03.06\WpfApp1\obj\Debug\Pages\SuccessAccountingStudent.baml
+C:\Users\bette\Desktop\Diplom\03.06\WpfApp1\obj\Debug\Authorization.baml
+C:\Users\bette\Desktop\Diplom\03.06\WpfApp1\obj\Debug\Windows\AddClassWindow.baml
+C:\Users\bette\Desktop\Diplom\03.06\WpfApp1\obj\Debug\Windows\AddGroupWindow.baml
+C:\Users\bette\Desktop\Diplom\03.06\WpfApp1\obj\Debug\Windows\AddLoginWindow.baml
+C:\Users\bette\Desktop\Diplom\03.06\WpfApp1\obj\Debug\Windows\AddStudentWindow.baml
+C:\Users\bette\Desktop\Diplom\03.06\WpfApp1\obj\Debug\Windows\AddSubjectTeacher.baml
+C:\Users\bette\Desktop\Diplom\03.06\WpfApp1\obj\Debug\Windows\AddSubjectWindow.baml
+C:\Users\bette\Desktop\Diplom\03.06\WpfApp1\obj\Debug\Windows\AddTeacherWindow.baml
+C:\Users\bette\Desktop\Diplom\03.06\WpfApp1\obj\Debug\Windows\SuccessAccoutingStudentWindow.baml
+C:\Users\bette\Desktop\Diplom\03.06\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\bette\Desktop\Diplom\03.06\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\bette\Desktop\Diplom\03.06\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Users\bette\Desktop\Diplom\03.06\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\bette\Desktop\Diplom\03.06\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete
+C:\Users\bette\Desktop\Diplom\03.06\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\bette\Desktop\Diplom\03.06\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\Users\bette\Desktop\Diplom\03.06(ready)\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\bette\Desktop\Diplom\03.06(ready)\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\bette\Desktop\Diplom\03.06(ready)\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\bette\Desktop\Diplom\03.06(ready)\WpfApp1\bin\Debug\EntityFramework.dll
+C:\Users\bette\Desktop\Diplom\03.06(ready)\WpfApp1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\bette\Desktop\Diplom\03.06(ready)\WpfApp1\bin\Debug\EntityFramework.xml
+C:\Users\bette\Desktop\Diplom\03.06(ready)\WpfApp1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\bette\Desktop\Diplom\03.06(ready)\WpfApp1\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\bette\Desktop\Diplom\03.06(ready)\WpfApp1\obj\Debug\Theme\MenuButtonTheme.baml
+C:\Users\bette\Desktop\Diplom\03.06(ready)\WpfApp1\obj\Debug\Theme\Others.baml
+C:\Users\bette\Desktop\Diplom\03.06(ready)\WpfApp1\obj\Debug\Theme\StyleButton.baml
+C:\Users\bette\Desktop\Diplom\03.06(ready)\WpfApp1\obj\Debug\MainWindow.g.cs
+C:\Users\bette\Desktop\Diplom\03.06(ready)\WpfApp1\obj\Debug\Pages\MainPage.g.cs
+C:\Users\bette\Desktop\Diplom\03.06(ready)\WpfApp1\obj\Debug\Pages\SuccessAccountingStudent.g.cs
+C:\Users\bette\Desktop\Diplom\03.06(ready)\WpfApp1\obj\Debug\Authorization.g.cs
+C:\Users\bette\Desktop\Diplom\03.06(ready)\WpfApp1\obj\Debug\Windows\AddClassWindow.g.cs
+C:\Users\bette\Desktop\Diplom\03.06(ready)\WpfApp1\obj\Debug\Windows\AddGroupWindow.g.cs
+C:\Users\bette\Desktop\Diplom\03.06(ready)\WpfApp1\obj\Debug\Windows\AddLoginWindow.g.cs
+C:\Users\bette\Desktop\Diplom\03.06(ready)\WpfApp1\obj\Debug\Windows\AddStudentWindow.g.cs
+C:\Users\bette\Desktop\Diplom\03.06(ready)\WpfApp1\obj\Debug\Windows\AddSubjectTeacher.g.cs
+C:\Users\bette\Desktop\Diplom\03.06(ready)\WpfApp1\obj\Debug\Windows\AddSubjectWindow.g.cs
+C:\Users\bette\Desktop\Diplom\03.06(ready)\WpfApp1\obj\Debug\Windows\AddTeacherWindow.g.cs
+C:\Users\bette\Desktop\Diplom\03.06(ready)\WpfApp1\obj\Debug\Windows\SuccessAccoutingStudentWindow.g.cs
+C:\Users\bette\Desktop\Diplom\03.06(ready)\WpfApp1\obj\Debug\App.g.cs
+C:\Users\bette\Desktop\Diplom\03.06(ready)\WpfApp1\obj\Debug\WpfApp1_Content.g.cs
+C:\Users\bette\Desktop\Diplom\03.06(ready)\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\bette\Desktop\Diplom\03.06(ready)\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\bette\Desktop\Diplom\03.06(ready)\WpfApp1\obj\Debug\App.baml
+C:\Users\bette\Desktop\Diplom\03.06(ready)\WpfApp1\obj\Debug\MainWindow.baml
+C:\Users\bette\Desktop\Diplom\03.06(ready)\WpfApp1\obj\Debug\Pages\MainPage.baml
+C:\Users\bette\Desktop\Diplom\03.06(ready)\WpfApp1\obj\Debug\Pages\SuccessAccountingStudent.baml
+C:\Users\bette\Desktop\Diplom\03.06(ready)\WpfApp1\obj\Debug\Authorization.baml
+C:\Users\bette\Desktop\Diplom\03.06(ready)\WpfApp1\obj\Debug\Windows\AddClassWindow.baml
+C:\Users\bette\Desktop\Diplom\03.06(ready)\WpfApp1\obj\Debug\Windows\AddGroupWindow.baml
+C:\Users\bette\Desktop\Diplom\03.06(ready)\WpfApp1\obj\Debug\Windows\AddLoginWindow.baml
+C:\Users\bette\Desktop\Diplom\03.06(ready)\WpfApp1\obj\Debug\Windows\AddStudentWindow.baml
+C:\Users\bette\Desktop\Diplom\03.06(ready)\WpfApp1\obj\Debug\Windows\AddSubjectTeacher.baml
+C:\Users\bette\Desktop\Diplom\03.06(ready)\WpfApp1\obj\Debug\Windows\AddSubjectWindow.baml
+C:\Users\bette\Desktop\Diplom\03.06(ready)\WpfApp1\obj\Debug\Windows\AddTeacherWindow.baml
+C:\Users\bette\Desktop\Diplom\03.06(ready)\WpfApp1\obj\Debug\Windows\SuccessAccoutingStudentWindow.baml
+C:\Users\bette\Desktop\Diplom\03.06(ready)\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\bette\Desktop\Diplom\03.06(ready)\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\bette\Desktop\Diplom\03.06(ready)\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Users\bette\Desktop\Diplom\03.06(ready)\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\bette\Desktop\Diplom\03.06(ready)\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete
+C:\Users\bette\Desktop\Diplom\03.06(ready)\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\bette\Desktop\Diplom\03.06(ready)\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\Users\bette\Desktop\Diplom\03.06(ready)\WpfApp1\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\bette\Desktop\Diplom\03.06(ready)\WpfApp1\obj\Debug\Theme\ClassesConvert.baml
+C:\Users\bette\Desktop\Diplom\04.06\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\bette\Desktop\Diplom\04.06\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\bette\Desktop\Diplom\04.06\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\bette\Desktop\Diplom\04.06\WpfApp1\bin\Debug\EntityFramework.dll
+C:\Users\bette\Desktop\Diplom\04.06\WpfApp1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\bette\Desktop\Diplom\04.06\WpfApp1\bin\Debug\EntityFramework.xml
+C:\Users\bette\Desktop\Diplom\04.06\WpfApp1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\bette\Desktop\Diplom\04.06\WpfApp1\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\bette\Desktop\Diplom\04.06\WpfApp1\obj\Debug\WpfApp1.csproj.AssemblyReference.cache
+C:\Users\bette\Desktop\Diplom\04.06\WpfApp1\obj\Debug\Theme\MenuButtonTheme.baml
+C:\Users\bette\Desktop\Diplom\04.06\WpfApp1\obj\Debug\Theme\Others.baml
+C:\Users\bette\Desktop\Diplom\04.06\WpfApp1\obj\Debug\Theme\StyleButton.baml
+C:\Users\bette\Desktop\Diplom\04.06\WpfApp1\obj\Debug\MainWindow.g.cs
+C:\Users\bette\Desktop\Diplom\04.06\WpfApp1\obj\Debug\Pages\MainPage.g.cs
+C:\Users\bette\Desktop\Diplom\04.06\WpfApp1\obj\Debug\Pages\SuccessAccountingStudent.g.cs
+C:\Users\bette\Desktop\Diplom\04.06\WpfApp1\obj\Debug\Authorization.g.cs
+C:\Users\bette\Desktop\Diplom\04.06\WpfApp1\obj\Debug\Windows\AddClassWindow.g.cs
+C:\Users\bette\Desktop\Diplom\04.06\WpfApp1\obj\Debug\Windows\AddGroupWindow.g.cs
+C:\Users\bette\Desktop\Diplom\04.06\WpfApp1\obj\Debug\Windows\AddLoginWindow.g.cs
+C:\Users\bette\Desktop\Diplom\04.06\WpfApp1\obj\Debug\Windows\AddStudentWindow.g.cs
+C:\Users\bette\Desktop\Diplom\04.06\WpfApp1\obj\Debug\Windows\AddSubjectTeacher.g.cs
+C:\Users\bette\Desktop\Diplom\04.06\WpfApp1\obj\Debug\Windows\AddSubjectWindow.g.cs
+C:\Users\bette\Desktop\Diplom\04.06\WpfApp1\obj\Debug\Windows\AddTeacherWindow.g.cs
+C:\Users\bette\Desktop\Diplom\04.06\WpfApp1\obj\Debug\Windows\SuccessAccoutingStudentWindow.g.cs
+C:\Users\bette\Desktop\Diplom\04.06\WpfApp1\obj\Debug\App.g.cs
+C:\Users\bette\Desktop\Diplom\04.06\WpfApp1\obj\Debug\WpfApp1_Content.g.cs
+C:\Users\bette\Desktop\Diplom\04.06\WpfApp1\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\bette\Desktop\Diplom\04.06\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\bette\Desktop\Diplom\04.06\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\bette\Desktop\Diplom\04.06\WpfApp1\obj\Debug\App.baml
+C:\Users\bette\Desktop\Diplom\04.06\WpfApp1\obj\Debug\MainWindow.baml
+C:\Users\bette\Desktop\Diplom\04.06\WpfApp1\obj\Debug\Pages\MainPage.baml
+C:\Users\bette\Desktop\Diplom\04.06\WpfApp1\obj\Debug\Pages\SuccessAccountingStudent.baml
+C:\Users\bette\Desktop\Diplom\04.06\WpfApp1\obj\Debug\Theme\ClassesConvert.baml
+C:\Users\bette\Desktop\Diplom\04.06\WpfApp1\obj\Debug\Authorization.baml
+C:\Users\bette\Desktop\Diplom\04.06\WpfApp1\obj\Debug\Windows\AddClassWindow.baml
+C:\Users\bette\Desktop\Diplom\04.06\WpfApp1\obj\Debug\Windows\AddGroupWindow.baml
+C:\Users\bette\Desktop\Diplom\04.06\WpfApp1\obj\Debug\Windows\AddLoginWindow.baml
+C:\Users\bette\Desktop\Diplom\04.06\WpfApp1\obj\Debug\Windows\AddStudentWindow.baml
+C:\Users\bette\Desktop\Diplom\04.06\WpfApp1\obj\Debug\Windows\AddSubjectTeacher.baml
+C:\Users\bette\Desktop\Diplom\04.06\WpfApp1\obj\Debug\Windows\AddSubjectWindow.baml
+C:\Users\bette\Desktop\Diplom\04.06\WpfApp1\obj\Debug\Windows\AddTeacherWindow.baml
+C:\Users\bette\Desktop\Diplom\04.06\WpfApp1\obj\Debug\Windows\SuccessAccoutingStudentWindow.baml
+C:\Users\bette\Desktop\Diplom\04.06\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\bette\Desktop\Diplom\04.06\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\bette\Desktop\Diplom\04.06\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Users\bette\Desktop\Diplom\04.06\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\bette\Desktop\Diplom\04.06\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete
+C:\Users\bette\Desktop\Diplom\04.06\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\bette\Desktop\Diplom\04.06\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\Users\bette\Desktop\Diplom\04.06(new Datacontext)\WpfApp1\obj\Debug\WpfApp1.csproj.AssemblyReference.cache
+C:\Users\bette\Desktop\Diplom\04.06(new Datacontext)\WpfApp1\obj\Debug\Theme\MenuButtonTheme.baml
+C:\Users\bette\Desktop\Diplom\04.06(new Datacontext)\WpfApp1\obj\Debug\Theme\Others.baml
+C:\Users\bette\Desktop\Diplom\04.06(new Datacontext)\WpfApp1\obj\Debug\Theme\StyleButton.baml
+C:\Users\bette\Desktop\Diplom\04.06(new Datacontext)\WpfApp1\obj\Debug\MainWindow.g.cs
+C:\Users\bette\Desktop\Diplom\04.06(new Datacontext)\WpfApp1\obj\Debug\Pages\MainPage.g.cs
+C:\Users\bette\Desktop\Diplom\04.06(new Datacontext)\WpfApp1\obj\Debug\Pages\SuccessAccountingStudent.g.cs
+C:\Users\bette\Desktop\Diplom\04.06(new Datacontext)\WpfApp1\obj\Debug\Authorization.g.cs
+C:\Users\bette\Desktop\Diplom\04.06(new Datacontext)\WpfApp1\obj\Debug\Windows\AddClassWindow.g.cs
+C:\Users\bette\Desktop\Diplom\04.06(new Datacontext)\WpfApp1\obj\Debug\Windows\AddGroupWindow.g.cs
+C:\Users\bette\Desktop\Diplom\04.06(new Datacontext)\WpfApp1\obj\Debug\Windows\AddLoginWindow.g.cs
+C:\Users\bette\Desktop\Diplom\04.06(new Datacontext)\WpfApp1\obj\Debug\Windows\AddStudentWindow.g.cs
+C:\Users\bette\Desktop\Diplom\04.06(new Datacontext)\WpfApp1\obj\Debug\Windows\AddSubjectTeacher.g.cs
+C:\Users\bette\Desktop\Diplom\04.06(new Datacontext)\WpfApp1\obj\Debug\Windows\AddSubjectWindow.g.cs
+C:\Users\bette\Desktop\Diplom\04.06(new Datacontext)\WpfApp1\obj\Debug\Windows\AddTeacherWindow.g.cs
+C:\Users\bette\Desktop\Diplom\04.06(new Datacontext)\WpfApp1\obj\Debug\Windows\SuccessAccoutingStudentWindow.g.cs
+C:\Users\bette\Desktop\Diplom\04.06(new Datacontext)\WpfApp1\obj\Debug\App.g.cs
+C:\Users\bette\Desktop\Diplom\04.06(new Datacontext)\WpfApp1\obj\Debug\WpfApp1_Content.g.cs
+C:\Users\bette\Desktop\Diplom\04.06(new Datacontext)\WpfApp1\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\bette\Desktop\Diplom\04.06(new Datacontext)\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\bette\Desktop\Diplom\04.06(new Datacontext)\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\bette\Desktop\Diplom\04.06(new Datacontext)\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\bette\Desktop\Diplom\04.06(new Datacontext)\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\Users\bette\Desktop\Diplom\04.06(new Datacontext)\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\bette\Desktop\Diplom\04.06(new Datacontext)\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\bette\Desktop\Diplom\04.06(new Datacontext)\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\bette\Desktop\Diplom\04.06(new Datacontext)\WpfApp1\bin\Debug\EntityFramework.dll
+C:\Users\bette\Desktop\Diplom\04.06(new Datacontext)\WpfApp1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\bette\Desktop\Diplom\04.06(new Datacontext)\WpfApp1\bin\Debug\EntityFramework.xml
+C:\Users\bette\Desktop\Diplom\04.06(new Datacontext)\WpfApp1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\bette\Desktop\Diplom\04.06(new Datacontext)\WpfApp1\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\bette\Desktop\Diplom\04.06(new Datacontext)\WpfApp1\obj\Debug\App.baml
+C:\Users\bette\Desktop\Diplom\04.06(new Datacontext)\WpfApp1\obj\Debug\MainWindow.baml
+C:\Users\bette\Desktop\Diplom\04.06(new Datacontext)\WpfApp1\obj\Debug\Pages\MainPage.baml
+C:\Users\bette\Desktop\Diplom\04.06(new Datacontext)\WpfApp1\obj\Debug\Pages\SuccessAccountingStudent.baml
+C:\Users\bette\Desktop\Diplom\04.06(new Datacontext)\WpfApp1\obj\Debug\Theme\ClassesConvert.baml
+C:\Users\bette\Desktop\Diplom\04.06(new Datacontext)\WpfApp1\obj\Debug\Authorization.baml
+C:\Users\bette\Desktop\Diplom\04.06(new Datacontext)\WpfApp1\obj\Debug\Windows\AddClassWindow.baml
+C:\Users\bette\Desktop\Diplom\04.06(new Datacontext)\WpfApp1\obj\Debug\Windows\AddGroupWindow.baml
+C:\Users\bette\Desktop\Diplom\04.06(new Datacontext)\WpfApp1\obj\Debug\Windows\AddLoginWindow.baml
+C:\Users\bette\Desktop\Diplom\04.06(new Datacontext)\WpfApp1\obj\Debug\Windows\AddStudentWindow.baml
+C:\Users\bette\Desktop\Diplom\04.06(new Datacontext)\WpfApp1\obj\Debug\Windows\AddSubjectTeacher.baml
+C:\Users\bette\Desktop\Diplom\04.06(new Datacontext)\WpfApp1\obj\Debug\Windows\AddSubjectWindow.baml
+C:\Users\bette\Desktop\Diplom\04.06(new Datacontext)\WpfApp1\obj\Debug\Windows\AddTeacherWindow.baml
+C:\Users\bette\Desktop\Diplom\04.06(new Datacontext)\WpfApp1\obj\Debug\Windows\SuccessAccoutingStudentWindow.baml
+C:\Users\bette\Desktop\Diplom\04.06(new Datacontext)\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\bette\Desktop\Diplom\04.06(new Datacontext)\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\bette\Desktop\Diplom\04.06(new Datacontext)\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Users\bette\Desktop\Diplom\04.06(new Datacontext)\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\bette\Desktop\Diplom\04.06(new Datacontext)\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete
+C:\Users\bette\Desktop\Разное диплом\Diplom\04.06(new Datacontext)\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\bette\Desktop\Разное диплом\Diplom\04.06(new Datacontext)\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\bette\Desktop\Разное диплом\Diplom\04.06(new Datacontext)\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\bette\Desktop\Разное диплом\Diplom\04.06(new Datacontext)\WpfApp1\bin\Debug\EntityFramework.dll
+C:\Users\bette\Desktop\Разное диплом\Diplom\04.06(new Datacontext)\WpfApp1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\bette\Desktop\Разное диплом\Diplom\04.06(new Datacontext)\WpfApp1\bin\Debug\EntityFramework.xml
+C:\Users\bette\Desktop\Разное диплом\Diplom\04.06(new Datacontext)\WpfApp1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\bette\Desktop\Разное диплом\Diplom\04.06(new Datacontext)\WpfApp1\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\bette\Desktop\Разное диплом\Diplom\04.06(new Datacontext)\WpfApp1\obj\Debug\WpfApp1.csproj.AssemblyReference.cache
+C:\Users\bette\Desktop\Разное диплом\Diplom\04.06(new Datacontext)\WpfApp1\obj\Debug\Theme\MenuButtonTheme.baml
+C:\Users\bette\Desktop\Разное диплом\Diplom\04.06(new Datacontext)\WpfApp1\obj\Debug\Theme\Others.baml
+C:\Users\bette\Desktop\Разное диплом\Diplom\04.06(new Datacontext)\WpfApp1\obj\Debug\Theme\StyleButton.baml
+C:\Users\bette\Desktop\Разное диплом\Diplom\04.06(new Datacontext)\WpfApp1\obj\Debug\MainWindow.g.cs
+C:\Users\bette\Desktop\Разное диплом\Diplom\04.06(new Datacontext)\WpfApp1\obj\Debug\Pages\MainPage.g.cs
+C:\Users\bette\Desktop\Разное диплом\Diplom\04.06(new Datacontext)\WpfApp1\obj\Debug\Pages\SuccessAccountingStudent.g.cs
+C:\Users\bette\Desktop\Разное диплом\Diplom\04.06(new Datacontext)\WpfApp1\obj\Debug\Authorization.g.cs
+C:\Users\bette\Desktop\Разное диплом\Diplom\04.06(new Datacontext)\WpfApp1\obj\Debug\Windows\AddClassWindow.g.cs
+C:\Users\bette\Desktop\Разное диплом\Diplom\04.06(new Datacontext)\WpfApp1\obj\Debug\Windows\AddGroupWindow.g.cs
+C:\Users\bette\Desktop\Разное диплом\Diplom\04.06(new Datacontext)\WpfApp1\obj\Debug\Windows\AddLoginWindow.g.cs
+C:\Users\bette\Desktop\Разное диплом\Diplom\04.06(new Datacontext)\WpfApp1\obj\Debug\Windows\AddStudentWindow.g.cs
+C:\Users\bette\Desktop\Разное диплом\Diplom\04.06(new Datacontext)\WpfApp1\obj\Debug\Windows\AddSubjectTeacher.g.cs
+C:\Users\bette\Desktop\Разное диплом\Diplom\04.06(new Datacontext)\WpfApp1\obj\Debug\Windows\AddSubjectWindow.g.cs
+C:\Users\bette\Desktop\Разное диплом\Diplom\04.06(new Datacontext)\WpfApp1\obj\Debug\Windows\AddTeacherWindow.g.cs
+C:\Users\bette\Desktop\Разное диплом\Diplom\04.06(new Datacontext)\WpfApp1\obj\Debug\Windows\SuccessAccoutingStudentWindow.g.cs
+C:\Users\bette\Desktop\Разное диплом\Diplom\04.06(new Datacontext)\WpfApp1\obj\Debug\App.g.cs
+C:\Users\bette\Desktop\Разное диплом\Diplom\04.06(new Datacontext)\WpfApp1\obj\Debug\WpfApp1_Content.g.cs
+C:\Users\bette\Desktop\Разное диплом\Diplom\04.06(new Datacontext)\WpfApp1\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\bette\Desktop\Разное диплом\Diplom\04.06(new Datacontext)\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\bette\Desktop\Разное диплом\Diplom\04.06(new Datacontext)\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\bette\Desktop\Разное диплом\Diplom\04.06(new Datacontext)\WpfApp1\obj\Debug\App.baml
+C:\Users\bette\Desktop\Разное диплом\Diplom\04.06(new Datacontext)\WpfApp1\obj\Debug\MainWindow.baml
+C:\Users\bette\Desktop\Разное диплом\Diplom\04.06(new Datacontext)\WpfApp1\obj\Debug\Pages\MainPage.baml
+C:\Users\bette\Desktop\Разное диплом\Diplom\04.06(new Datacontext)\WpfApp1\obj\Debug\Pages\SuccessAccountingStudent.baml
+C:\Users\bette\Desktop\Разное диплом\Diplom\04.06(new Datacontext)\WpfApp1\obj\Debug\Theme\ClassesConvert.baml
+C:\Users\bette\Desktop\Разное диплом\Diplom\04.06(new Datacontext)\WpfApp1\obj\Debug\Authorization.baml
+C:\Users\bette\Desktop\Разное диплом\Diplom\04.06(new Datacontext)\WpfApp1\obj\Debug\Windows\AddClassWindow.baml
+C:\Users\bette\Desktop\Разное диплом\Diplom\04.06(new Datacontext)\WpfApp1\obj\Debug\Windows\AddGroupWindow.baml
+C:\Users\bette\Desktop\Разное диплом\Diplom\04.06(new Datacontext)\WpfApp1\obj\Debug\Windows\AddLoginWindow.baml
+C:\Users\bette\Desktop\Разное диплом\Diplom\04.06(new Datacontext)\WpfApp1\obj\Debug\Windows\AddStudentWindow.baml
+C:\Users\bette\Desktop\Разное диплом\Diplom\04.06(new Datacontext)\WpfApp1\obj\Debug\Windows\AddSubjectTeacher.baml
+C:\Users\bette\Desktop\Разное диплом\Diplom\04.06(new Datacontext)\WpfApp1\obj\Debug\Windows\AddSubjectWindow.baml
+C:\Users\bette\Desktop\Разное диплом\Diplom\04.06(new Datacontext)\WpfApp1\obj\Debug\Windows\AddTeacherWindow.baml
+C:\Users\bette\Desktop\Разное диплом\Diplom\04.06(new Datacontext)\WpfApp1\obj\Debug\Windows\SuccessAccoutingStudentWindow.baml
+C:\Users\bette\Desktop\Разное диплом\Diplom\04.06(new Datacontext)\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\bette\Desktop\Разное диплом\Diplom\04.06(new Datacontext)\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\bette\Desktop\Разное диплом\Diplom\04.06(new Datacontext)\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Users\bette\Desktop\Разное диплом\Diplom\04.06(new Datacontext)\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\bette\Desktop\Разное диплом\Diplom\04.06(new Datacontext)\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete
+C:\Users\bette\Desktop\Разное диплом\Diplom\04.06(new Datacontext)\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\bette\Desktop\Разное диплом\Diplom\04.06(new Datacontext)\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\Users\bette\Desktop\Разное диплом\ТОЧНО ЗАЩИТА\04.06(new Datacontext)\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\bette\Desktop\Разное диплом\ТОЧНО ЗАЩИТА\04.06(new Datacontext)\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\bette\Desktop\Разное диплом\ТОЧНО ЗАЩИТА\04.06(new Datacontext)\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\bette\Desktop\Разное диплом\ТОЧНО ЗАЩИТА\04.06(new Datacontext)\WpfApp1\bin\Debug\EntityFramework.dll
+C:\Users\bette\Desktop\Разное диплом\ТОЧНО ЗАЩИТА\04.06(new Datacontext)\WpfApp1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\bette\Desktop\Разное диплом\ТОЧНО ЗАЩИТА\04.06(new Datacontext)\WpfApp1\bin\Debug\EntityFramework.xml
+C:\Users\bette\Desktop\Разное диплом\ТОЧНО ЗАЩИТА\04.06(new Datacontext)\WpfApp1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\bette\Desktop\Разное диплом\ТОЧНО ЗАЩИТА\04.06(new Datacontext)\WpfApp1\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\bette\Desktop\Разное диплом\ТОЧНО ЗАЩИТА\04.06(new Datacontext)\WpfApp1\obj\Debug\WpfApp1.csproj.AssemblyReference.cache
+C:\Users\bette\Desktop\Разное диплом\ТОЧНО ЗАЩИТА\04.06(new Datacontext)\WpfApp1\obj\Debug\Theme\MenuButtonTheme.baml
+C:\Users\bette\Desktop\Разное диплом\ТОЧНО ЗАЩИТА\04.06(new Datacontext)\WpfApp1\obj\Debug\Theme\Others.baml
+C:\Users\bette\Desktop\Разное диплом\ТОЧНО ЗАЩИТА\04.06(new Datacontext)\WpfApp1\obj\Debug\Theme\StyleButton.baml
+C:\Users\bette\Desktop\Разное диплом\ТОЧНО ЗАЩИТА\04.06(new Datacontext)\WpfApp1\obj\Debug\MainWindow.g.cs
+C:\Users\bette\Desktop\Разное диплом\ТОЧНО ЗАЩИТА\04.06(new Datacontext)\WpfApp1\obj\Debug\Pages\MainPage.g.cs
+C:\Users\bette\Desktop\Разное диплом\ТОЧНО ЗАЩИТА\04.06(new Datacontext)\WpfApp1\obj\Debug\Pages\SuccessAccountingStudent.g.cs
+C:\Users\bette\Desktop\Разное диплом\ТОЧНО ЗАЩИТА\04.06(new Datacontext)\WpfApp1\obj\Debug\Authorization.g.cs
+C:\Users\bette\Desktop\Разное диплом\ТОЧНО ЗАЩИТА\04.06(new Datacontext)\WpfApp1\obj\Debug\Windows\AddClassWindow.g.cs
+C:\Users\bette\Desktop\Разное диплом\ТОЧНО ЗАЩИТА\04.06(new Datacontext)\WpfApp1\obj\Debug\Windows\AddGroupWindow.g.cs
+C:\Users\bette\Desktop\Разное диплом\ТОЧНО ЗАЩИТА\04.06(new Datacontext)\WpfApp1\obj\Debug\Windows\AddLoginWindow.g.cs
+C:\Users\bette\Desktop\Разное диплом\ТОЧНО ЗАЩИТА\04.06(new Datacontext)\WpfApp1\obj\Debug\Windows\AddStudentWindow.g.cs
+C:\Users\bette\Desktop\Разное диплом\ТОЧНО ЗАЩИТА\04.06(new Datacontext)\WpfApp1\obj\Debug\Windows\AddSubjectTeacher.g.cs
+C:\Users\bette\Desktop\Разное диплом\ТОЧНО ЗАЩИТА\04.06(new Datacontext)\WpfApp1\obj\Debug\Windows\AddSubjectWindow.g.cs
+C:\Users\bette\Desktop\Разное диплом\ТОЧНО ЗАЩИТА\04.06(new Datacontext)\WpfApp1\obj\Debug\Windows\AddTeacherWindow.g.cs
+C:\Users\bette\Desktop\Разное диплом\ТОЧНО ЗАЩИТА\04.06(new Datacontext)\WpfApp1\obj\Debug\Windows\SuccessAccoutingStudentWindow.g.cs
+C:\Users\bette\Desktop\Разное диплом\ТОЧНО ЗАЩИТА\04.06(new Datacontext)\WpfApp1\obj\Debug\App.g.cs
+C:\Users\bette\Desktop\Разное диплом\ТОЧНО ЗАЩИТА\04.06(new Datacontext)\WpfApp1\obj\Debug\WpfApp1_Content.g.cs
+C:\Users\bette\Desktop\Разное диплом\ТОЧНО ЗАЩИТА\04.06(new Datacontext)\WpfApp1\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\bette\Desktop\Разное диплом\ТОЧНО ЗАЩИТА\04.06(new Datacontext)\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\bette\Desktop\Разное диплом\ТОЧНО ЗАЩИТА\04.06(new Datacontext)\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\bette\Desktop\Разное диплом\ТОЧНО ЗАЩИТА\04.06(new Datacontext)\WpfApp1\obj\Debug\App.baml
+C:\Users\bette\Desktop\Разное диплом\ТОЧНО ЗАЩИТА\04.06(new Datacontext)\WpfApp1\obj\Debug\MainWindow.baml
+C:\Users\bette\Desktop\Разное диплом\ТОЧНО ЗАЩИТА\04.06(new Datacontext)\WpfApp1\obj\Debug\Pages\MainPage.baml
+C:\Users\bette\Desktop\Разное диплом\ТОЧНО ЗАЩИТА\04.06(new Datacontext)\WpfApp1\obj\Debug\Pages\SuccessAccountingStudent.baml
+C:\Users\bette\Desktop\Разное диплом\ТОЧНО ЗАЩИТА\04.06(new Datacontext)\WpfApp1\obj\Debug\Theme\ClassesConvert.baml
+C:\Users\bette\Desktop\Разное диплом\ТОЧНО ЗАЩИТА\04.06(new Datacontext)\WpfApp1\obj\Debug\Authorization.baml
+C:\Users\bette\Desktop\Разное диплом\ТОЧНО ЗАЩИТА\04.06(new Datacontext)\WpfApp1\obj\Debug\Windows\AddClassWindow.baml
+C:\Users\bette\Desktop\Разное диплом\ТОЧНО ЗАЩИТА\04.06(new Datacontext)\WpfApp1\obj\Debug\Windows\AddGroupWindow.baml
+C:\Users\bette\Desktop\Разное диплом\ТОЧНО ЗАЩИТА\04.06(new Datacontext)\WpfApp1\obj\Debug\Windows\AddLoginWindow.baml
+C:\Users\bette\Desktop\Разное диплом\ТОЧНО ЗАЩИТА\04.06(new Datacontext)\WpfApp1\obj\Debug\Windows\AddStudentWindow.baml
+C:\Users\bette\Desktop\Разное диплом\ТОЧНО ЗАЩИТА\04.06(new Datacontext)\WpfApp1\obj\Debug\Windows\AddSubjectTeacher.baml
+C:\Users\bette\Desktop\Разное диплом\ТОЧНО ЗАЩИТА\04.06(new Datacontext)\WpfApp1\obj\Debug\Windows\AddSubjectWindow.baml
+C:\Users\bette\Desktop\Разное диплом\ТОЧНО ЗАЩИТА\04.06(new Datacontext)\WpfApp1\obj\Debug\Windows\AddTeacherWindow.baml
+C:\Users\bette\Desktop\Разное диплом\ТОЧНО ЗАЩИТА\04.06(new Datacontext)\WpfApp1\obj\Debug\Windows\SuccessAccoutingStudentWindow.baml
+C:\Users\bette\Desktop\Разное диплом\ТОЧНО ЗАЩИТА\04.06(new Datacontext)\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\bette\Desktop\Разное диплом\ТОЧНО ЗАЩИТА\04.06(new Datacontext)\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\bette\Desktop\Разное диплом\ТОЧНО ЗАЩИТА\04.06(new Datacontext)\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Users\bette\Desktop\Разное диплом\ТОЧНО ЗАЩИТА\04.06(new Datacontext)\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\bette\Desktop\Разное диплом\ТОЧНО ЗАЩИТА\04.06(new Datacontext)\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete
+C:\Users\bette\Desktop\Разное диплом\ТОЧНО ЗАЩИТА\04.06(new Datacontext)\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\bette\Desktop\Разное диплом\ТОЧНО ЗАЩИТА\04.06(new Datacontext)\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\Users\bette\Desktop\Разное диплом\ТОЧНО ЗАЩИТА\04.06(new Datacontext)\WpfApp1\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+D:\Проекты для гита\StudentRating\bin\Debug\WpfApp1.exe.config
+D:\Проекты для гита\StudentRating\bin\Debug\WpfApp1.exe
+D:\Проекты для гита\StudentRating\bin\Debug\WpfApp1.pdb
+D:\Проекты для гита\StudentRating\bin\Debug\EntityFramework.dll
+D:\Проекты для гита\StudentRating\bin\Debug\EntityFramework.SqlServer.dll
+D:\Проекты для гита\StudentRating\bin\Debug\EntityFramework.xml
+D:\Проекты для гита\StudentRating\bin\Debug\EntityFramework.SqlServer.xml
+D:\Проекты для гита\StudentRating\bin\Debug\ru\EntityFramework.resources.dll
+D:\Проекты для гита\StudentRating\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+D:\Проекты для гита\StudentRating\obj\Debug\WpfApp1.csproj.AssemblyReference.cache
+D:\Проекты для гита\StudentRating\obj\Debug\Theme\MenuButtonTheme.baml
+D:\Проекты для гита\StudentRating\obj\Debug\Theme\Others.baml
+D:\Проекты для гита\StudentRating\obj\Debug\Theme\StyleButton.baml
+D:\Проекты для гита\StudentRating\obj\Debug\MainWindow.g.cs
+D:\Проекты для гита\StudentRating\obj\Debug\Pages\MainPage.g.cs
+D:\Проекты для гита\StudentRating\obj\Debug\Pages\SuccessAccountingStudent.g.cs
+D:\Проекты для гита\StudentRating\obj\Debug\Authorization.g.cs
+D:\Проекты для гита\StudentRating\obj\Debug\Windows\AddClassWindow.g.cs
+D:\Проекты для гита\StudentRating\obj\Debug\Windows\AddGroupWindow.g.cs
+D:\Проекты для гита\StudentRating\obj\Debug\Windows\AddLoginWindow.g.cs
+D:\Проекты для гита\StudentRating\obj\Debug\Windows\AddStudentWindow.g.cs
+D:\Проекты для гита\StudentRating\obj\Debug\Windows\AddSubjectTeacher.g.cs
+D:\Проекты для гита\StudentRating\obj\Debug\Windows\AddSubjectWindow.g.cs
+D:\Проекты для гита\StudentRating\obj\Debug\Windows\AddTeacherWindow.g.cs
+D:\Проекты для гита\StudentRating\obj\Debug\Windows\SuccessAccoutingStudentWindow.g.cs
+D:\Проекты для гита\StudentRating\obj\Debug\App.g.cs
+D:\Проекты для гита\StudentRating\obj\Debug\WpfApp1_Content.g.cs
+D:\Проекты для гита\StudentRating\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Проекты для гита\StudentRating\obj\Debug\WpfApp1_MarkupCompile.cache
+D:\Проекты для гита\StudentRating\obj\Debug\WpfApp1_MarkupCompile.lref
+D:\Проекты для гита\StudentRating\obj\Debug\App.baml
+D:\Проекты для гита\StudentRating\obj\Debug\MainWindow.baml
+D:\Проекты для гита\StudentRating\obj\Debug\Pages\MainPage.baml
+D:\Проекты для гита\StudentRating\obj\Debug\Pages\SuccessAccountingStudent.baml
+D:\Проекты для гита\StudentRating\obj\Debug\Theme\ClassesConvert.baml
+D:\Проекты для гита\StudentRating\obj\Debug\Authorization.baml
+D:\Проекты для гита\StudentRating\obj\Debug\Windows\AddClassWindow.baml
+D:\Проекты для гита\StudentRating\obj\Debug\Windows\AddGroupWindow.baml
+D:\Проекты для гита\StudentRating\obj\Debug\Windows\AddLoginWindow.baml
+D:\Проекты для гита\StudentRating\obj\Debug\Windows\AddStudentWindow.baml
+D:\Проекты для гита\StudentRating\obj\Debug\Windows\AddSubjectTeacher.baml
+D:\Проекты для гита\StudentRating\obj\Debug\Windows\AddSubjectWindow.baml
+D:\Проекты для гита\StudentRating\obj\Debug\Windows\AddTeacherWindow.baml
+D:\Проекты для гита\StudentRating\obj\Debug\Windows\SuccessAccoutingStudentWindow.baml
+D:\Проекты для гита\StudentRating\obj\Debug\WpfApp1.g.resources
+D:\Проекты для гита\StudentRating\obj\Debug\WpfApp1.Properties.Resources.resources
+D:\Проекты для гита\StudentRating\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+D:\Проекты для гита\StudentRating\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+D:\Проекты для гита\StudentRating\obj\Debug\WpfApp1.csproj.Up2Date
+D:\Проекты для гита\StudentRating\obj\Debug\WpfApp1.exe
+D:\Проекты для гита\StudentRating\obj\Debug\WpfApp1.pdb

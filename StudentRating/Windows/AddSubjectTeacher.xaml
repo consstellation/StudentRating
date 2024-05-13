@@ -1,0 +1,215 @@
+﻿<Window x:Class="WpfApp1.Windows.AddSubjectTeacher"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1.Windows"
+        mc:Ignorable="d"
+         Title="Добавление логина" Height="350.906" Width="655.312"   MaxHeight="350.906" MaxWidth="655.312" 
+        FontSize="16"
+        WindowStartupLocation="CenterScreen" AllowsTransparency="True"
+        WindowStyle="None" ResizeMode="CanResizeWithGrip" Background="{x:Null}" 
+        FontFamily="{StaticResource newFont}" MouseLeftButtonDown="Roate"
+        Loaded="Window_Loaded">
+
+
+    <Border Background="#272537" CornerRadius="20">
+
+
+        <Grid x:Name="teacherAndSubjectGrid">
+
+
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="54*"/>
+                <ColumnDefinition Width="77*"/>
+            </Grid.ColumnDefinitions>
+
+
+            <DataGrid x:Name="teacherAndSubjectDataGrid"
+                      RowDetailsVisibilityMode="VisibleWhenSelected"
+                      Margin="10,10,10,187" SelectionMode="Single" 
+                      CanUserAddRows="False"
+                      IsReadOnly="True" 
+                      EnableRowVirtualization="True" 
+                      AutoGenerateColumns="False" Background="Transparent" RowBackground="Transparent"
+                Foreground="White"
+                FontSize="15" Grid.Column="1">
+
+
+
+                <DataGrid.Resources>
+                    <Style TargetType="{x:Type DataGridColumnHeader}">
+                        <Setter Property="Background" Value="#272537"/>
+                    </Style>
+
+                </DataGrid.Resources>
+
+
+
+
+                <DataGrid.Columns>
+
+                    <!--<DataGridTextColumn Header="ID" Binding="{Binding ID}"/>-->
+
+                    <DataGridTemplateColumn Header="Преподаватель">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock>
+                                    <Run Text="{Binding FirstName}"/>
+                                    <Run Text="{Binding LastName}"/>
+                                    <Run Text="{Binding MiddleName}"/>
+                                </TextBlock>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+
+                    <DataGridTemplateColumn Header="Предметы">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+
+                                <ComboBox x:Name="teacherNameBox" 
+                 SelectedItem="{Binding Subjects}"
+                      ItemsSource="{Binding Subjects}">
+                                    <ComboBox.ItemTemplate>
+                                        <DataTemplate >
+                                            <StackPanel>
+                                                <TextBlock>
+                                <Run Text="{Binding Name}"/>
+                                                </TextBlock>
+                                            </StackPanel>
+                                        </DataTemplate>
+                                    </ComboBox.ItemTemplate>
+
+
+                                </ComboBox>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+
+
+
+
+                </DataGrid.Columns>
+
+
+            </DataGrid>
+
+
+            <StackPanel Margin="0,0,0,199">
+
+
+                <Grid  Grid.Column="0" Grid.Row="0" >
+                    <Menu Name="menu" Background="{x:Null}" FontFamily="{StaticResource newFont}"
+                  VerticalAlignment="Top" HorizontalAlignment="Stretch" Margin="5,5,10,0" Height="25" FontSize="18">
+                        <MenuItem Header="Файл" Foreground="White">
+                            <MenuItem Header="Выход" Click="Exit_Click" Foreground="Black" FontSize="16"/>
+                        </MenuItem>
+                    </Menu>
+                </Grid>
+
+                <TextBlock Margin="10,5,10,0" Text="Преподаватель"
+                       VerticalAlignment="Top" Padding="10 3"  
+                       Foreground="White" Height="24"/>
+
+            <ComboBox x:Name="teacherNameBox" Padding="1"  Foreground="Black"
+            Margin="10,5,10,0"
+                VerticalAlignment="Top" Height="22" SelectedItem="{Binding CuratorOrTeacher}"
+                      ItemsSource="{Binding CuratorOrTeacher}">
+                <ComboBox.ItemTemplate>
+                    <DataTemplate >
+                        <StackPanel>
+                            <TextBlock>
+                                <Run Text="{Binding FirstName}"/>
+                                <Run Text="{Binding LastName}"/>
+                                <Run Text="{Binding MiddleName}"/>
+                            </TextBlock>
+                        </StackPanel>
+                    </DataTemplate>
+                </ComboBox.ItemTemplate>
+
+
+            </ComboBox>
+
+
+                <TextBlock Margin="10,5,10,0" Text="Предмет"
+                       VerticalAlignment="Top" Padding="10 3"  
+                       Foreground="White" Height="24"/>
+
+                <ComboBox x:Name="subjectNameBox" Padding="1"  Foreground="Black"
+                Margin="10,5,10,0"
+                VerticalAlignment="Top" Height="22" SelectedItem="{Binding Subject}"
+                      ItemsSource="{Binding Subject}">
+                    <ComboBox.ItemTemplate>
+                        <DataTemplate >
+                            <StackPanel>
+                                <TextBlock>
+                                <Run Text="{Binding Name}"/>
+                                </TextBlock>
+                            </StackPanel>
+                        </DataTemplate>
+                    </ComboBox.ItemTemplate>
+
+
+                </ComboBox>
+
+            </StackPanel>
+
+
+
+            <Button Content="Сохранить" Padding="10 3" 
+                    Margin="20,157,140,0" Height="28"
+                    VerticalAlignment="Top" Click="SaveButton_Click" 
+                    Style="{StaticResource  OrangeButton}"/>
+
+
+            <Button Content="Изменить" Padding="10 3" 
+                Margin="150,157,10,0" Height="28"
+                VerticalAlignment="Top" Click="EditButton_Click" 
+                >
+                <Button.Style >
+                    <Style TargetType="Button" BasedOn="{StaticResource OrangeButton}">
+                        <Style.Triggers>
+                            <DataTrigger Binding="{Binding ElementName=teacherAndSubjectDataGrid, Path=SelectedItems.Count}" Value="0">
+                                <Setter Property="IsEnabled" Value="False"/>
+                            </DataTrigger>
+                        </Style.Triggers>
+                    </Style>
+                </Button.Style>
+            </Button>
+
+            <Button Content="Удалить" Padding="10 3" 
+                Margin="80,200,80,0" Height="28"
+                VerticalAlignment="Top" Click="DeleteButton_Click" 
+                >
+                <Button.Style >
+                    <Style TargetType="Button" BasedOn="{StaticResource OrangeButton}">
+                        <Style.Triggers>
+                            <DataTrigger Binding="{Binding ElementName=teacherAndSubjectDataGrid, Path=SelectedItems.Count}" Value="0">
+                                <Setter Property="IsEnabled" Value="False"/>
+                            </DataTrigger>
+                        </Style.Triggers>
+                    </Style>
+                </Button.Style>
+            </Button>
+
+
+            <Button Content="Очистить поля" Padding="10 3" 
+                Margin="10,313,140,0" Height="28"
+                VerticalAlignment="Top" Click="ClearButton_Click" 
+                Style="{StaticResource OrangeButton}" />
+
+
+            <TextBlock
+                       VerticalAlignment="Top" Padding="10 3"
+                       HorizontalAlignment="Left" Width="175"
+                       Foreground="White" Margin="10,182,0,0" Grid.Column="1" Height="24"><Run Text="Поиск по ФИО"/><Run Text=", группе"/></TextBlock>
+
+            <TextBox x:Name="filterTextBox" SelectionChanged="filterTextBox_SelectionChanged" Margin="200,182,10,145" Grid.Column="1"/>
+
+
+            <TextBlock x:Name="countTextBlock" Grid.Column="1" Margin="125,269,35,26" Foreground="White"/>
+        </Grid>
+
+    </Border>
+</Window>

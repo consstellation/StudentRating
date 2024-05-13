@@ -1,0 +1,158 @@
+﻿<Window x:Class="WpfApp1.Windows.SuccessAccoutingStudentWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1.Windows"
+        mc:Ignorable="d"
+         Title="Учет успеваемости: Добавление занятия" Height="500.906" Width="355.312"
+        FontSize="16"
+        WindowStartupLocation="CenterScreen" AllowsTransparency="True"
+         WindowStyle="None" ResizeMode="CanResizeWithGrip" Background="{x:Null}"  FontFamily="{StaticResource newFont}" MouseLeftButtonDown="Rotate"
+        Loaded="Window_Loaded">
+    <Border Background="#272537" CornerRadius="20">
+
+        <Grid x:Name="lessonStudentGrid">
+
+
+            <StackPanel Margin="0,0,0,66">
+
+                <Grid  Grid.Column="0" Grid.Row="0" >
+                    <Menu Name="menu" Background="{x:Null}" FontFamily="{StaticResource newFont}"
+                  VerticalAlignment="Top" HorizontalAlignment="Stretch" Margin="5,5,10,0" Height="25" FontSize="18">
+                        <MenuItem Header="Файл" Foreground="White">
+                            <MenuItem Header="Выход" Click="Exit_Click" Foreground="Black" FontSize="16"/>
+                        </MenuItem>
+                    </Menu>
+                </Grid>
+                
+                <TextBlock Text="Группа"
+                       VerticalAlignment="Top" Padding="10 3"
+                       HorizontalAlignment="Left" Width="335"
+                       Foreground="White" Margin="10,5,10,0"/>
+
+            <ComboBox Name="groupBox"
+                      VerticalAlignment="Top" 
+                      Padding="10 1"         
+                      HorizontalAlignment="Left" Width="335"
+                      Margin="10,5,10,0" DataContext="{Binding Lesson}" 
+                      SelectedItem="{Binding Group}" ItemsSource="{Binding Group}"
+                          >
+                <ComboBox.ItemTemplate>
+                    <DataTemplate >
+                        <StackPanel>
+                            <TextBlock>
+                                <Run Text="{Binding Name}"/>
+                            </TextBlock>
+                        </StackPanel>
+                    </DataTemplate>
+                </ComboBox.ItemTemplate>
+            </ComboBox>
+
+            
+            <TextBlock Text="Учащийся" VerticalAlignment="Top"
+                       Padding="10 3" HorizontalAlignment="Left" 
+                       Width="335" Foreground="White" Margin="10,5,10,0">
+
+            </TextBlock>
+
+            <ComboBox Name="studentBox" ItemsSource="{Binding Student}"   
+                      SelectedItem="{Binding Student}"
+                      VerticalAlignment="Top" Padding="10 1" 
+                      HorizontalAlignment="Left"
+                      Width="335" Margin="10,5,10,0">
+                <ComboBox.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel>
+                            <TextBlock>
+                                    <Run Text="{Binding FirstName}"/>
+                                    <Run Text="{Binding MiddleName}"/>
+                                    <Run Text="{Binding LastName}"/>
+                            </TextBlock>
+                        </StackPanel>
+                    </DataTemplate>
+                </ComboBox.ItemTemplate>
+            </ComboBox>
+
+
+
+            <TextBlock Text="Дисциплина" VerticalAlignment="Top"
+                       Padding="10 3" HorizontalAlignment="Left" 
+                       Width="335" Foreground="White" Margin="10,5,10,0"/>
+
+
+
+            <ComboBox Name="subjectBox" 
+                      VerticalAlignment="Top" Padding="10 1" 
+                      HorizontalAlignment="Left" Width="335" Margin="10,5,10,0"
+                      DataContext="{Binding Lesson}" 
+                      SelectedItem="{Binding Subject}" ItemsSource="{Binding Subject}">
+                <ComboBox.ItemTemplate>
+                    <DataTemplate >
+                        <StackPanel>
+                            <TextBlock>
+                                <Run Text="{Binding Name}"/>
+                            </TextBlock>
+                        </StackPanel>
+                    </DataTemplate>
+                </ComboBox.ItemTemplate>
+            </ComboBox>
+
+
+            <TextBlock  Text="Занятие" VerticalAlignment="Top"
+                        Padding="10 3" HorizontalAlignment="Left" 
+                        Width="207" Margin="10,5,10,0" Foreground="White"/>
+
+            <ComboBox Name="lessonBox"
+                      VerticalAlignment="Top" Padding="10 1"                 
+                      HorizontalAlignment="Left" Width="335"
+                      Margin="10,5,10,0" SelectedItem="{Binding Lesson}" ItemsSource="{Binding Lesson}">
+                <ComboBox.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel>
+                            <TextBlock>
+                                  <Run  Text="{Binding DataLesson}"/>
+                                  <Run  Text="{Binding TypeLesson}"/>
+                            </TextBlock>
+                        </StackPanel>
+                    </DataTemplate>
+                </ComboBox.ItemTemplate>
+            </ComboBox>
+                
+            <TextBlock Text="Количество баллов" VerticalAlignment="Top"
+                       Padding="10 3" HorizontalAlignment="Left"
+                       Width="150" Foreground="White" Margin="10,5,10,0"/>
+
+                <TextBox x:Name="pointBox" Padding="1" 
+                     VerticalAlignment="Top" HorizontalAlignment="Left"
+                     Width="152" Margin="10,5,10,0" Text="{Binding Point}"/>
+
+
+                <CheckBox Name="existBox" Padding="10 3" 
+                      Content="Присутствовал"  VerticalAlignment="Top"
+                      VerticalContentAlignment="Center" HorizontalAlignment="Left"      
+                      Width="207" Margin="10,5,10,0" IsChecked="{Binding Exist}" 
+                      Foreground="White"/>
+                
+                
+  
+
+
+            <TextBlock Text="Комментарий" VerticalAlignment="Top"
+                       Padding="10 3" HorizontalAlignment="Left"
+                       Width="119" Margin="10,5,10,0" Foreground="White"/>
+
+            <TextBox Name="commentBox" Padding="1" 
+                     VerticalAlignment="Top" Height="64" 
+                     HorizontalAlignment="Left" Width="207" Margin="10,5,10,0" Text="{Binding Comment}"/>
+
+            </StackPanel>
+            <Button Content="Сохранить" Padding="10 3"
+                    VerticalAlignment="Top" Click="AddButton_Click"
+                    HorizontalAlignment="Left" Width="207" Margin="70,456,0,0" Style="{StaticResource OrangeButton}"/>
+
+
+        </Grid>
+
+    </Border>
+</Window>

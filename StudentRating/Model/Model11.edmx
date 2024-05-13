@@ -1,0 +1,705 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="Хранилище LegramModel" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Employee">
+          <Key>
+            <PropertyRef Name="EmployeeAccountId" />
+          </Key>
+          <Property Name="EmployeeAccountId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="EmployeeAccesModelId" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="EmployeeAccessMode">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="EmployeeAccount">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Login" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Password" Type="nvarchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Group">
+          <Key>
+            <PropertyRef Name="groupId" />
+          </Key>
+          <Property Name="groupId" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="groupName" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="curatorFirstName" Type="nvarchar" MaxLength="50" />
+          <Property Name="curatorMiddleName" Type="nvarchar" MaxLength="50" />
+          <Property Name="curatorLastName" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="JoinGS">
+          <Key>
+            <PropertyRef Name="joinId" />
+          </Key>
+          <Property Name="joinId" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="groupId" Type="bigint" Nullable="false" />
+          <Property Name="subjectId" Type="bigint" Nullable="false" />
+        </EntityType>
+        <EntityType Name="JoinLS">
+          <Key>
+            <PropertyRef Name="joinId" />
+          </Key>
+          <Property Name="joinId" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="lessonId" Type="bigint" Nullable="false" />
+          <Property Name="studentId" Type="bigint" Nullable="false" />
+          <Property Name="studentExist" Type="bit" Nullable="false" />
+          <Property Name="studentPoint" Type="int" Nullable="false" />
+          <Property Name="joinComment" Type="nvarchar" MaxLength="500" />
+        </EntityType>
+        <EntityType Name="JoinSG">
+          <Key>
+            <PropertyRef Name="joinId" />
+          </Key>
+          <Property Name="joinId" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="studentId" Type="bigint" Nullable="false" />
+          <Property Name="groupId" Type="bigint" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Lesson">
+          <Key>
+            <PropertyRef Name="lessonId" />
+          </Key>
+          <Property Name="lessonId" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="subjectId" Type="bigint" Nullable="false" />
+          <Property Name="lessonDate" Type="date" Nullable="false" />
+          <Property Name="groupId" Type="bigint" Nullable="false" />
+          <Property Name="lessonType" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="maxPoint" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Student">
+          <Key>
+            <PropertyRef Name="studentId" />
+          </Key>
+          <Property Name="studentId" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="studentFirstName" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="studentMiddleName" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="studentLastName" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Subject">
+          <Key>
+            <PropertyRef Name="subjectId" />
+          </Key>
+          <Property Name="subjectId" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="subjectName" Type="nvarchar" MaxLength="250" Nullable="false" />
+        </EntityType>
+        <EntityType Name="sysdiagrams">
+          <Key>
+            <PropertyRef Name="diagram_id" />
+          </Key>
+          <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="principal_id" Type="int" Nullable="false" />
+          <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="version" Type="int" />
+          <Property Name="definition" Type="varbinary(max)" />
+        </EntityType>
+        <Association Name="FK__JournalGS__group__2A164134">
+          <End Role="Group" Type="Self.Group" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="JoinGS" Type="Self.JoinGS" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Group">
+              <PropertyRef Name="groupId" />
+            </Principal>
+            <Dependent Role="JoinGS">
+              <PropertyRef Name="groupId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__JournalGS__subje__2B0A656D">
+          <End Role="Subject" Type="Self.Subject" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="JoinGS" Type="Self.JoinGS" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Subject">
+              <PropertyRef Name="subjectId" />
+            </Principal>
+            <Dependent Role="JoinGS">
+              <PropertyRef Name="subjectId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__JournalLS__lesso__0C85DE4D">
+          <End Role="Lesson" Type="Self.Lesson" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="JoinLS" Type="Self.JoinLS" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Lesson">
+              <PropertyRef Name="lessonId" />
+            </Principal>
+            <Dependent Role="JoinLS">
+              <PropertyRef Name="lessonId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__JournalLS__stude__0D7A0286">
+          <End Role="Student" Type="Self.Student" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="JoinLS" Type="Self.JoinLS" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Student">
+              <PropertyRef Name="studentId" />
+            </Principal>
+            <Dependent Role="JoinLS">
+              <PropertyRef Name="studentId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__JournalSG__group__6383C8BA">
+          <End Role="Group" Type="Self.Group" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="JoinSG" Type="Self.JoinSG" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Group">
+              <PropertyRef Name="groupId" />
+            </Principal>
+            <Dependent Role="JoinSG">
+              <PropertyRef Name="groupId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__JournalSG__stude__628FA481">
+          <End Role="Student" Type="Self.Student" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="JoinSG" Type="Self.JoinSG" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Student">
+              <PropertyRef Name="studentId" />
+            </Principal>
+            <Dependent Role="JoinSG">
+              <PropertyRef Name="studentId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Lesson__groupId__74AE54BC">
+          <End Role="Group" Type="Self.Group" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="Lesson" Type="Self.Lesson" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Group">
+              <PropertyRef Name="groupId" />
+            </Principal>
+            <Dependent Role="Lesson">
+              <PropertyRef Name="groupId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Lesson__subjectI__73BA3083">
+          <End Role="Subject" Type="Self.Subject" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="Lesson" Type="Self.Lesson" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Subject">
+              <PropertyRef Name="subjectId" />
+            </Principal>
+            <Dependent Role="Lesson">
+              <PropertyRef Name="subjectId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Employee_EmployeeAccessMode">
+          <End Role="EmployeeAccessMode" Type="Self.EmployeeAccessMode" Multiplicity="1" />
+          <End Role="Employee" Type="Self.Employee" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="EmployeeAccessMode">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Employee">
+              <PropertyRef Name="EmployeeAccesModelId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Employee_EmployeeAccount1">
+          <End Role="EmployeeAccount" Type="Self.EmployeeAccount" Multiplicity="1" />
+          <End Role="Employee" Type="Self.Employee" Multiplicity="0..1" />
+          <ReferentialConstraint>
+            <Principal Role="EmployeeAccount">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Employee">
+              <PropertyRef Name="EmployeeAccountId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="Хранилище LegramModelContainer">
+          <EntitySet Name="Employee" EntityType="Self.Employee" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="EmployeeAccessMode" EntityType="Self.EmployeeAccessMode" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="EmployeeAccount" EntityType="Self.EmployeeAccount" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Group" EntityType="Self.Group" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="JoinGS" EntityType="Self.JoinGS" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="JoinLS" EntityType="Self.JoinLS" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="JoinSG" EntityType="Self.JoinSG" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Lesson" EntityType="Self.Lesson" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Student" EntityType="Self.Student" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Subject" EntityType="Self.Subject" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK__JournalGS__group__2A164134" Association="Self.FK__JournalGS__group__2A164134">
+            <End Role="Group" EntitySet="Group" />
+            <End Role="JoinGS" EntitySet="JoinGS" />
+          </AssociationSet>
+          <AssociationSet Name="FK__JournalGS__subje__2B0A656D" Association="Self.FK__JournalGS__subje__2B0A656D">
+            <End Role="Subject" EntitySet="Subject" />
+            <End Role="JoinGS" EntitySet="JoinGS" />
+          </AssociationSet>
+          <AssociationSet Name="FK__JournalLS__lesso__0C85DE4D" Association="Self.FK__JournalLS__lesso__0C85DE4D">
+            <End Role="Lesson" EntitySet="Lesson" />
+            <End Role="JoinLS" EntitySet="JoinLS" />
+          </AssociationSet>
+          <AssociationSet Name="FK__JournalLS__stude__0D7A0286" Association="Self.FK__JournalLS__stude__0D7A0286">
+            <End Role="Student" EntitySet="Student" />
+            <End Role="JoinLS" EntitySet="JoinLS" />
+          </AssociationSet>
+          <AssociationSet Name="FK__JournalSG__group__6383C8BA" Association="Self.FK__JournalSG__group__6383C8BA">
+            <End Role="Group" EntitySet="Group" />
+            <End Role="JoinSG" EntitySet="JoinSG" />
+          </AssociationSet>
+          <AssociationSet Name="FK__JournalSG__stude__628FA481" Association="Self.FK__JournalSG__stude__628FA481">
+            <End Role="Student" EntitySet="Student" />
+            <End Role="JoinSG" EntitySet="JoinSG" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Lesson__groupId__74AE54BC" Association="Self.FK__Lesson__groupId__74AE54BC">
+            <End Role="Group" EntitySet="Group" />
+            <End Role="Lesson" EntitySet="Lesson" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Lesson__subjectI__73BA3083" Association="Self.FK__Lesson__subjectI__73BA3083">
+            <End Role="Subject" EntitySet="Subject" />
+            <End Role="Lesson" EntitySet="Lesson" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Employee_EmployeeAccessMode" Association="Self.FK_Employee_EmployeeAccessMode">
+            <End Role="EmployeeAccessMode" EntitySet="EmployeeAccessMode" />
+            <End Role="Employee" EntitySet="Employee" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Employee_EmployeeAccount1" Association="Self.FK_Employee_EmployeeAccount1">
+            <End Role="EmployeeAccount" EntitySet="EmployeeAccount" />
+            <End Role="Employee" EntitySet="Employee" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="LegramModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="EmployeeAccessMode">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="EmployeeAccounts" Relationship="Self.Employee" FromRole="EmployeeAccessMode" ToRole="EmployeeAccount" />
+        </EntityType>
+        <EntityType Name="EmployeeAccount">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Login" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="EmployeeAccessMode" Relationship="Self.Employee" FromRole="EmployeeAccount" ToRole="EmployeeAccessMode" />
+        </EntityType>
+        <EntityType Name="Group">
+          <Key>
+            <PropertyRef Name="groupId" />
+          </Key>
+          <Property Name="groupId" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="groupName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="curatorFirstName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="curatorMiddleName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="curatorLastName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="JoinGS" Relationship="Self.FK__JournalGS__group__2A164134" FromRole="Group" ToRole="JoinGS" />
+          <NavigationProperty Name="JoinSGs" Relationship="Self.FK__JournalSG__group__6383C8BA" FromRole="Group" ToRole="JoinSG" />
+          <NavigationProperty Name="Lessons" Relationship="Self.FK__Lesson__groupId__74AE54BC" FromRole="Group" ToRole="Lesson" />
+        </EntityType>
+        <EntityType Name="JoinG">
+          <Key>
+            <PropertyRef Name="joinId" />
+          </Key>
+          <Property Name="joinId" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="groupId" Type="Int64" Nullable="false" />
+          <Property Name="subjectId" Type="Int64" Nullable="false" />
+          <NavigationProperty Name="Group" Relationship="Self.FK__JournalGS__group__2A164134" FromRole="JoinGS" ToRole="Group" />
+          <NavigationProperty Name="Subject" Relationship="Self.FK__JournalGS__subje__2B0A656D" FromRole="JoinGS" ToRole="Subject" />
+        </EntityType>
+        <EntityType Name="JoinL">
+          <Key>
+            <PropertyRef Name="joinId" />
+          </Key>
+          <Property Name="joinId" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="lessonId" Type="Int64" Nullable="false" />
+          <Property Name="studentId" Type="Int64" Nullable="false" />
+          <Property Name="studentExist" Type="Boolean" Nullable="false" />
+          <Property Name="studentPoint" Type="Int32" Nullable="false" />
+          <Property Name="joinComment" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Lesson" Relationship="Self.FK__JournalLS__lesso__0C85DE4D" FromRole="JoinLS" ToRole="Lesson" />
+          <NavigationProperty Name="Student" Relationship="Self.FK__JournalLS__stude__0D7A0286" FromRole="JoinLS" ToRole="Student" />
+        </EntityType>
+        <EntityType Name="JoinSG">
+          <Key>
+            <PropertyRef Name="joinId" />
+          </Key>
+          <Property Name="joinId" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="studentId" Type="Int64" Nullable="false" />
+          <Property Name="groupId" Type="Int64" Nullable="false" />
+          <NavigationProperty Name="Group" Relationship="Self.FK__JournalSG__group__6383C8BA" FromRole="JoinSG" ToRole="Group" />
+          <NavigationProperty Name="Student" Relationship="Self.FK__JournalSG__stude__628FA481" FromRole="JoinSG" ToRole="Student" />
+        </EntityType>
+        <EntityType Name="Lesson">
+          <Key>
+            <PropertyRef Name="lessonId" />
+          </Key>
+          <Property Name="lessonId" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="subjectId" Type="Int64" Nullable="false" />
+          <Property Name="lessonDate" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="groupId" Type="Int64" Nullable="false" />
+          <Property Name="lessonType" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="maxPoint" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Group" Relationship="Self.FK__Lesson__groupId__74AE54BC" FromRole="Lesson" ToRole="Group" />
+          <NavigationProperty Name="JoinLS" Relationship="Self.FK__JournalLS__lesso__0C85DE4D" FromRole="Lesson" ToRole="JoinLS" />
+          <NavigationProperty Name="Subject" Relationship="Self.FK__Lesson__subjectI__73BA3083" FromRole="Lesson" ToRole="Subject" />
+        </EntityType>
+        <EntityType Name="Student">
+          <Key>
+            <PropertyRef Name="studentId" />
+          </Key>
+          <Property Name="studentId" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="studentFirstName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="studentMiddleName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="studentLastName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="JoinLS" Relationship="Self.FK__JournalLS__stude__0D7A0286" FromRole="Student" ToRole="JoinLS" />
+          <NavigationProperty Name="JoinSGs" Relationship="Self.FK__JournalSG__stude__628FA481" FromRole="Student" ToRole="JoinSG" />
+        </EntityType>
+        <EntityType Name="Subject">
+          <Key>
+            <PropertyRef Name="subjectId" />
+          </Key>
+          <Property Name="subjectId" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="subjectName" Type="String" MaxLength="250" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="JoinGS" Relationship="Self.FK__JournalGS__subje__2B0A656D" FromRole="Subject" ToRole="JoinGS" />
+          <NavigationProperty Name="Lessons" Relationship="Self.FK__Lesson__subjectI__73BA3083" FromRole="Subject" ToRole="Lesson" />
+        </EntityType>
+        <EntityType Name="sysdiagram">
+          <Key>
+            <PropertyRef Name="diagram_id" />
+          </Key>
+          <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="principal_id" Type="Int32" Nullable="false" />
+          <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="version" Type="Int32" />
+          <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+        </EntityType>
+        <Association Name="FK__JournalGS__group__2A164134">
+          <End Role="Group" Type="Self.Group" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="JoinGS" Type="Self.JoinG" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Group">
+              <PropertyRef Name="groupId" />
+            </Principal>
+            <Dependent Role="JoinGS">
+              <PropertyRef Name="groupId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__JournalSG__group__6383C8BA">
+          <End Role="Group" Type="Self.Group" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="JoinSG" Type="Self.JoinSG" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Group">
+              <PropertyRef Name="groupId" />
+            </Principal>
+            <Dependent Role="JoinSG">
+              <PropertyRef Name="groupId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Lesson__groupId__74AE54BC">
+          <End Role="Group" Type="Self.Group" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="Lesson" Type="Self.Lesson" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Group">
+              <PropertyRef Name="groupId" />
+            </Principal>
+            <Dependent Role="Lesson">
+              <PropertyRef Name="groupId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__JournalGS__subje__2B0A656D">
+          <End Role="Subject" Type="Self.Subject" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="JoinGS" Type="Self.JoinG" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Subject">
+              <PropertyRef Name="subjectId" />
+            </Principal>
+            <Dependent Role="JoinGS">
+              <PropertyRef Name="subjectId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__JournalLS__lesso__0C85DE4D">
+          <End Role="Lesson" Type="Self.Lesson" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="JoinLS" Type="Self.JoinL" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Lesson">
+              <PropertyRef Name="lessonId" />
+            </Principal>
+            <Dependent Role="JoinLS">
+              <PropertyRef Name="lessonId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__JournalLS__stude__0D7A0286">
+          <End Role="Student" Type="Self.Student" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="JoinLS" Type="Self.JoinL" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Student">
+              <PropertyRef Name="studentId" />
+            </Principal>
+            <Dependent Role="JoinLS">
+              <PropertyRef Name="studentId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__JournalSG__stude__628FA481">
+          <End Role="Student" Type="Self.Student" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="JoinSG" Type="Self.JoinSG" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Student">
+              <PropertyRef Name="studentId" />
+            </Principal>
+            <Dependent Role="JoinSG">
+              <PropertyRef Name="studentId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Lesson__subjectI__73BA3083">
+          <End Role="Subject" Type="Self.Subject" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="Lesson" Type="Self.Lesson" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Subject">
+              <PropertyRef Name="subjectId" />
+            </Principal>
+            <Dependent Role="Lesson">
+              <PropertyRef Name="subjectId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="Employee">
+          <End Role="EmployeeAccessMode" Type="Self.EmployeeAccessMode" Multiplicity="0..1" />
+          <End Role="EmployeeAccount" Type="Self.EmployeeAccount" Multiplicity="*" />
+        </Association>
+        <EntityContainer Name="LegramEntities9" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="EmployeeAccessModes" EntityType="Self.EmployeeAccessMode" />
+          <EntitySet Name="EmployeeAccounts" EntityType="Self.EmployeeAccount" />
+          <EntitySet Name="Groups" EntityType="Self.Group" />
+          <EntitySet Name="JoinGS" EntityType="Self.JoinG" />
+          <EntitySet Name="JoinLS" EntityType="Self.JoinL" />
+          <EntitySet Name="JoinSGs" EntityType="Self.JoinSG" />
+          <EntitySet Name="Lessons" EntityType="Self.Lesson" />
+          <EntitySet Name="Students" EntityType="Self.Student" />
+          <EntitySet Name="Subjects" EntityType="Self.Subject" />
+          <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
+          <AssociationSet Name="FK__JournalGS__group__2A164134" Association="Self.FK__JournalGS__group__2A164134">
+            <End Role="Group" EntitySet="Groups" />
+            <End Role="JoinGS" EntitySet="JoinGS" />
+          </AssociationSet>
+          <AssociationSet Name="FK__JournalSG__group__6383C8BA" Association="Self.FK__JournalSG__group__6383C8BA">
+            <End Role="Group" EntitySet="Groups" />
+            <End Role="JoinSG" EntitySet="JoinSGs" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Lesson__groupId__74AE54BC" Association="Self.FK__Lesson__groupId__74AE54BC">
+            <End Role="Group" EntitySet="Groups" />
+            <End Role="Lesson" EntitySet="Lessons" />
+          </AssociationSet>
+          <AssociationSet Name="FK__JournalGS__subje__2B0A656D" Association="Self.FK__JournalGS__subje__2B0A656D">
+            <End Role="Subject" EntitySet="Subjects" />
+            <End Role="JoinGS" EntitySet="JoinGS" />
+          </AssociationSet>
+          <AssociationSet Name="FK__JournalLS__lesso__0C85DE4D" Association="Self.FK__JournalLS__lesso__0C85DE4D">
+            <End Role="Lesson" EntitySet="Lessons" />
+            <End Role="JoinLS" EntitySet="JoinLS" />
+          </AssociationSet>
+          <AssociationSet Name="FK__JournalLS__stude__0D7A0286" Association="Self.FK__JournalLS__stude__0D7A0286">
+            <End Role="Student" EntitySet="Students" />
+            <End Role="JoinLS" EntitySet="JoinLS" />
+          </AssociationSet>
+          <AssociationSet Name="FK__JournalSG__stude__628FA481" Association="Self.FK__JournalSG__stude__628FA481">
+            <End Role="Student" EntitySet="Students" />
+            <End Role="JoinSG" EntitySet="JoinSGs" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Lesson__subjectI__73BA3083" Association="Self.FK__Lesson__subjectI__73BA3083">
+            <End Role="Subject" EntitySet="Subjects" />
+            <End Role="Lesson" EntitySet="Lessons" />
+          </AssociationSet>
+          <AssociationSet Name="Employee" Association="Self.Employee">
+            <End Role="EmployeeAccessMode" EntitySet="EmployeeAccessModes" />
+            <End Role="EmployeeAccount" EntitySet="EmployeeAccounts" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="Хранилище LegramModelContainer" CdmEntityContainer="LegramEntities9">
+          <EntitySetMapping Name="EmployeeAccessModes">
+            <EntityTypeMapping TypeName="LegramModel.EmployeeAccessMode">
+              <MappingFragment StoreEntitySet="EmployeeAccessMode">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="EmployeeAccounts">
+            <EntityTypeMapping TypeName="LegramModel.EmployeeAccount">
+              <MappingFragment StoreEntitySet="EmployeeAccount">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Login" ColumnName="Login" />
+                <ScalarProperty Name="Password" ColumnName="Password" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Groups">
+            <EntityTypeMapping TypeName="LegramModel.Group">
+              <MappingFragment StoreEntitySet="Group">
+                <ScalarProperty Name="groupId" ColumnName="groupId" />
+                <ScalarProperty Name="groupName" ColumnName="groupName" />
+                <ScalarProperty Name="curatorFirstName" ColumnName="curatorFirstName" />
+                <ScalarProperty Name="curatorMiddleName" ColumnName="curatorMiddleName" />
+                <ScalarProperty Name="curatorLastName" ColumnName="curatorLastName" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="JoinGS">
+            <EntityTypeMapping TypeName="LegramModel.JoinG">
+              <MappingFragment StoreEntitySet="JoinGS">
+                <ScalarProperty Name="joinId" ColumnName="joinId" />
+                <ScalarProperty Name="groupId" ColumnName="groupId" />
+                <ScalarProperty Name="subjectId" ColumnName="subjectId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="JoinLS">
+            <EntityTypeMapping TypeName="LegramModel.JoinL">
+              <MappingFragment StoreEntitySet="JoinLS">
+                <ScalarProperty Name="joinId" ColumnName="joinId" />
+                <ScalarProperty Name="lessonId" ColumnName="lessonId" />
+                <ScalarProperty Name="studentId" ColumnName="studentId" />
+                <ScalarProperty Name="studentExist" ColumnName="studentExist" />
+                <ScalarProperty Name="studentPoint" ColumnName="studentPoint" />
+                <ScalarProperty Name="joinComment" ColumnName="joinComment" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="JoinSGs">
+            <EntityTypeMapping TypeName="LegramModel.JoinSG">
+              <MappingFragment StoreEntitySet="JoinSG">
+                <ScalarProperty Name="joinId" ColumnName="joinId" />
+                <ScalarProperty Name="studentId" ColumnName="studentId" />
+                <ScalarProperty Name="groupId" ColumnName="groupId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Lessons">
+            <EntityTypeMapping TypeName="LegramModel.Lesson">
+              <MappingFragment StoreEntitySet="Lesson">
+                <ScalarProperty Name="lessonId" ColumnName="lessonId" />
+                <ScalarProperty Name="subjectId" ColumnName="subjectId" />
+                <ScalarProperty Name="lessonDate" ColumnName="lessonDate" />
+                <ScalarProperty Name="groupId" ColumnName="groupId" />
+                <ScalarProperty Name="lessonType" ColumnName="lessonType" />
+                <ScalarProperty Name="maxPoint" ColumnName="maxPoint" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Students">
+            <EntityTypeMapping TypeName="LegramModel.Student">
+              <MappingFragment StoreEntitySet="Student">
+                <ScalarProperty Name="studentId" ColumnName="studentId" />
+                <ScalarProperty Name="studentFirstName" ColumnName="studentFirstName" />
+                <ScalarProperty Name="studentMiddleName" ColumnName="studentMiddleName" />
+                <ScalarProperty Name="studentLastName" ColumnName="studentLastName" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Subjects">
+            <EntityTypeMapping TypeName="LegramModel.Subject">
+              <MappingFragment StoreEntitySet="Subject">
+                <ScalarProperty Name="subjectId" ColumnName="subjectId" />
+                <ScalarProperty Name="subjectName" ColumnName="subjectName" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="sysdiagrams">
+            <EntityTypeMapping TypeName="LegramModel.sysdiagram">
+              <MappingFragment StoreEntitySet="sysdiagrams">
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+                <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+                <ScalarProperty Name="version" ColumnName="version" />
+                <ScalarProperty Name="definition" ColumnName="definition" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <AssociationSetMapping Name="Employee" TypeName="LegramModel.Employee" StoreEntitySet="Employee">
+            <EndProperty Name="EmployeeAccessMode">
+              <ScalarProperty Name="Id" ColumnName="EmployeeAccesModelId" />
+            </EndProperty>
+            <EndProperty Name="EmployeeAccount">
+              <ScalarProperty Name="Id" ColumnName="EmployeeAccountId" />
+            </EndProperty>
+          </AssociationSetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Нет" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
